@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Otaniemi Lounas • Campus Lunch Feed</title>
+  <meta name="description" content="Päivän lounaslistat Otaniemen ja Innopolin kampusalueen ravintoloissa: Maukas, Factory Maarinportti, Tastory Innopoli 2, Sodexo Min Innopoli ja Prandia Din Maari." />
+  <meta name="theme-color" content="#1e293b" />
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Otaniemi Lounas • Campus Lunch Feed" />
+  <meta property="og:description" content="Päivän lounaslistat 5 Otaniemen kampusalueen ravintolasta yhdellä silmäyksellä." />
+  <meta property="og:type" content="website" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍲</text></svg>" />
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body data-theme="system">
+  <!-- Top Navigation Bar -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand">
+        <span class="brand-icon">🍲</span>
+        <div class="brand-text">
+          <h1 class="brand-title">Otaniemi <span class="brand-highlight">Lounas</span></h1>
+          <p class="brand-subtitle" data-i18n="campus_feed_subtitle">Otaniemen &amp; Innopolin kampuksen lounaslistat</p>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <!-- Live Clock & Status -->
+        <div class="clock-badge" id="live-clock" title="Helsingin aika">
+          <span class="clock-dot"></span>
+          <span id="clock-text">--:--</span>
+        </div>
+        
+        <!-- Language Switcher -->
+        <div class="lang-switch-wrapper">
+          <button id="lang-toggle-btn" class="icon-btn" title="Vaihda kieli / Switch language" aria-label="Toggle language">
+            <span id="lang-label">🇫🇮 FI</span>
+          </button>
+        </div>
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle-btn" class="icon-btn" title="Vaihda teema / Toggle theme" aria-label="Toggle theme">
+          <svg id="theme-icon-sun" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg id="theme-icon-moon" class="icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+    
+    <!-- Controls Section: Day Picker, Search, Dietary Filters -->
+    <section class="control-panel">
+      
+      <!-- Day Selector Tabs -->
+      <div class="day-picker-container">
+        <div class="day-picker" id="day-picker" role="tablist">
+          <button class="day-tab active" data-day="today" role="tab" aria-selected="true">
+            <span class="day-tab-title" data-i18n="today">Tänään</span>
+            <span class="day-tab-subtitle" id="today-name-badge">--</span>
+          </button>
+          <button class="day-tab" data-day="mon" role="tab" aria-selected="false">
+            <span class="day-tab-title" data-i18n="day_mon">Ma</span>
+            <span class="day-tab-subtitle" data-i18n="day_mon_full">Maanantai</span>
+          </button>
+          <button class="day-tab" data-day="tue" role="tab" aria-selected="false">
+            <span class="day-tab-title" data-i18n="day_tue">Ti</span>
+            <span class="day-tab-subtitle" data-i18n="day_tue_full">Tiistai</span>
+          </button>
+          <button class="day-tab" data-day="wed" role="tab" aria-selected="false">
+            <span class="day-tab-title" data-i18n="day_wed">Ke</span>
+            <span class="day-tab-subtitle" data-i18n="day_wed_full">Keskiviikko</span>
+          </button>
+          <button class="day-tab" data-day="thu" role="tab" aria-selected="false">
+            <span class="day-tab-title" data-i18n="day_thu">To</span>
+            <span class="day-tab-subtitle" data-i18n="day_thu_full">Torstai</span>
+          </button>
+          <button class="day-tab" data-day="fri" role="tab" aria-selected="false">
+            <span class="day-tab-title" data-i18n="day_fri">Pe</span>
+            <span class="day-tab-subtitle" data-i18n="day_fri_full">Perjantai</span>
+          </button>
+          <button class="day-tab" data-day="all" role="tab" aria-selected="false">
+            <span class="day-tab-title" data-i18n="all_week">Koko viikko</span>
+            <span class="day-tab-subtitle">Ma–Pe</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Filter Bar: Search + Quick Actions -->
+      <div class="filters-row">
+        <!-- Search Input -->
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Etsi ruokaa tai ravintolaa (esim. lohi, keitto, tofu)..." 
+            data-i18n-placeholder="search_placeholder"
+            autocomplete="off"
+            aria-label="Search lunch items"
+          />
+          <button id="search-clear-btn" class="search-clear-btn hidden" aria-label="Clear search">✕</button>
+        </div>
+
+        <!-- Quick Share & Refresh Actions -->
+        <div class="quick-actions">
+          <button id="copy-slack-btn" class="action-btn primary" title="Kopioi päivän lounaslista Markdown-muodossa Slackiin tai Teamsiin">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span data-i18n="copy_slack">Kopioi lounaat Slackiin</span>
+          </button>
+
+          <button id="refresh-btn" class="action-btn secondary" title="Päivitä lounaslistat">
+            <svg id="refresh-icon" class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="23 4 23 10 17 10"></polyline>
+              <polyline points="1 20 1 14 7 14"></polyline>
+              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+            </svg>
+            <span data-i18n="refresh">Päivitä</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Dietary Filter Chips -->
+      <div class="diet-filters-container">
+        <div class="diet-filter-scroll">
+          <span class="filter-label" data-i18n="filter_by_diet">Erityisruokavalio:</span>
+          <button class="diet-chip active" data-diet="all" data-i18n="diet_all">Kaikki</button>
+          <button class="diet-chip" data-diet="VE" title="Vegaaninen (VE)">🌱 <span data-i18n="diet_vegan">Vegaani</span></button>
+          <button class="diet-chip" data-diet="KASVIS" title="Kasvisruoka">🥗 <span data-i18n="diet_vegetarian">Kasvis</span></button>
+          <button class="diet-chip" data-diet="G" title="Gluteeniton (G)">🌾 <span data-i18n="diet_gluten_free">Gluteeniton</span></button>
+          <button class="diet-chip" data-diet="L" title="Laktoositon tai Vähälaktoosinen (L/VL)">🥛 <span data-i18n="diet_lactose_free">Laktoositon</span></button>
+          <button class="diet-chip" data-diet="M" title="Maidoton (M)">💧 <span data-i18n="diet_milk_free">Maidoton</span></button>
+          <button class="diet-chip" data-diet="NO_GARLIC" title="Ei valkosipulia">🧄 <span data-i18n="diet_no_garlic">Valkosipuliton</span></button>
+        </div>
+      </div>
+      
+      <!-- Active Filter Status & Match Counter -->
+      <div id="filter-status-bar" class="filter-status-bar hidden">
+        <span id="filter-status-text">--</span>
+        <button id="filter-reset-btn" class="text-link-btn" data-i18n="reset_filters">Tyhjennä suodattimet</button>
+      </div>
+
+    </section>
+
+    <!-- Restaurant Cards Feed -->
+    <section class="restaurant-feed" id="restaurant-feed" aria-live="polite">
+      <!-- Loading Placeholder / Skeleton Cards -->
+      <div class="skeleton-container" id="skeleton-container">
+        <div class="restaurant-card skeleton-card"></div>
+        <div class="restaurant-card skeleton-card"></div>
+        <div class="restaurant-card skeleton-card"></div>
+      </div>
+    </section>
+
+    <!-- Campus Guide & Quick Info Bar -->
+    <section class="campus-guide-section">
+      <div class="campus-guide-card">
+        <div class="guide-header">
+          <span class="guide-icon">📍</span>
+          <div>
+            <h3 class="guide-title" data-i18n="campus_guide_title">Otaniemen lounaskartta &amp; ravintolat</h3>
+            <p class="guide-subtitle" data-i18n="campus_guide_subtitle">5 laadukasta lounaspaikkaa Otaniemen ja Innopolin alueella</p>
+          </div>
+        </div>
+        
+        <div class="guide-grid">
+          <div class="guide-item">
+            <span class="guide-item-badge green">1</span>
+            <div class="guide-item-content">
+              <strong>Ravintola Maukas</strong>
+              <p>Vuorimiehentie 5 • 4 min metroasemalta</p>
+              <span class="tag">Luomua &amp; lähiruokaa</span>
+            </div>
+          </div>
+          <div class="guide-item">
+            <span class="guide-item-badge red">2</span>
+            <div class="guide-item-content">
+              <strong>Factory Maarinportti</strong>
+              <p>Maarintie 6 • 6 min metroasemalta</p>
+              <span class="tag">Runsas buffet &amp; salaattibaari</span>
+            </div>
+          </div>
+          <div class="guide-item">
+            <span class="guide-item-badge blue">3</span>
+            <div class="guide-item-content">
+              <strong>Tastory Innopoli 2</strong>
+              <p>Tekniikantie 14 • 8 min metroasemalta</p>
+              <span class="tag">Sesongin maut &amp; kasvis</span>
+            </div>
+          </div>
+          <div class="guide-item">
+            <span class="guide-item-badge purple">4</span>
+            <div class="guide-item-content">
+              <strong>Min Innopoli (Sodexo)</strong>
+              <p>Tekniikantie 12 • 7 min metroasemalta</p>
+              <span class="tag">Chef-annokset &amp; buffet</span>
+            </div>
+          </div>
+          <div class="guide-item">
+            <span class="guide-item-badge orange">5</span>
+            <div class="guide-item-content">
+              <strong>Prandia Din Maari</strong>
+              <p>Vaisalantie 4 (Innopoli 3) • 10 min metroasemalta</p>
+              <span class="tag">Monipuolinen kotiruokalounas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-meta">
+        <p><strong data-i18n="footer_title">Otaniemi Campus Lunch Feed</strong> • <span id="footer-update-time">Päivitetty: --</span></p>
+        <p class="footer-note" data-i18n="footer_disclaimer">Ruokalistat haetaan suoraan ravintoloiden virallisilta verkkosivuilta. Muutokset mahdollisia.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <svg class="footer-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          GitHub Pages
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden" role="alert" aria-live="assertive">
+    <span id="toast-message">Kopioitu leikepöydälle!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>

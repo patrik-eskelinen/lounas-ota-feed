@@ -1,0 +1,49 @@
+name: Update Lunch Menus
+
+on:
+  schedule:
+    # Runs Monday to Friday at 04:00 UTC (07:00 Finnish time) and 07:30 UTC (10:30 Finnish time)
+    - cron: '0 4 * * 1-5'
+    - cron: '30 7 * * 1-5'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+  push:
+    paths:
+      - 'scripts/fetch_menus.py'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install beautifulsoup4
+
+      - name: Scrape Lunch Menus
+        run: |
+          python scripts/fetch_menus.py
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/menus.json
+          if git diff --staged --quiet; then
+            echo "No menu updates found. Everything up to date."
+          else
+            git commit -m "🤖 Auto-update Otaniemi lunch menus [skip ci]"
+            git push
+          fi
