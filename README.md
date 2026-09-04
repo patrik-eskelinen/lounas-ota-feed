@@ -1,6 +1,6 @@
 # 🍲 Otaniemi Lounas • Campus Lunch Feed
 
-A modern, responsive, fast HTML web application designed to be hosted on **GitHub Pages** that fetches and displays the daily and weekly lunch menus of **5 popular lunch restaurants** in the Otaniemi / Innopoli campus area (Espoo, Finland).
+A modern, responsive, fast HTML web application designed to be hosted on **GitHub Pages** that fetches and displays the daily and weekly lunch menus of **6 popular lunch restaurants** in the Otaniemi / Innopoli campus area (Espoo, Finland).
 
 🌐 **Live Demo / GitHub Pages Ready**: Zero external server dependencies required.
 
@@ -11,10 +11,11 @@ A modern, responsive, fast HTML web application designed to be hosted on **GitHu
 | # | Restaurant | Location & Area | Lunch Hours | Official Website |
 |---|---|---|---|---|
 | 1 | **Ravintola Maukas** | Vuorimiehentie 5 (Otaniemi) | 10:30 – 14:00 | [mau-kas.fi/en/maukas](https://www.mau-kas.fi/en/maukas) |
-| 2 | **Factory Maarinportti** | Maarintie 6 (Maarinportti) | 10:30 – 14:00 | [ravintolafactory.com/lounasravintolat/ravintolat/factory-maarinportti/](https://ravintolafactory.com/lounasravintolat/ravintolat/factory-maarinportti/#) |
-| 3 | **Tastory Innopoli 2** | Tekniikantie 14 (Innopoli 2) | 10:30 – 13:30 | [compass-group.fi/.../innopoli2/](https://www.compass-group.fi/ravintolat-ja-ruokalistat/tastory/kaupungit/espoo/innopoli2/) |
-| 4 | **Min Innopoli (Sodexo)** | Tekniikantie 12 (Innopoli 1) | 11:00 – 13:30 | [sodexo.fi/ravintolat/min-innopoli](https://www.sodexo.fi/ravintolat/min-innopoli) |
-| 5 | **Prandia Din Maari** | Vaisalantie 4 (Innopoli 3) | 11:00 – 13:30 | [prandia.fi/prandia-din-maari-lounas-otaniemi-tapiola.html](https://prandia.fi/prandia-din-maari-lounas-otaniemi-tapiola.html) |
+| 2 | **Ravintola Nova Maukas** | Tietotie 3 (Otaniemi) | 10:30 – 14:00 | [mau-kas.fi/nova](https://www.mau-kas.fi/nova) |
+| 3 | **Factory Maarinportti** | Maarintie 6 (Maarinportti) | 10:30 – 14:00 | [ravintolafactory.com/lounasravintolat/ravintolat/factory-maarinportti/](https://ravintolafactory.com/lounasravintolat/ravintolat/factory-maarinportti/#) |
+| 4 | **Tastory Innopoli 2** | Tekniikantie 14 (Innopoli 2) | 10:30 – 13:30 | [compass-group.fi/.../innopoli2/](https://www.compass-group.fi/ravintolat-ja-ruokalistat/tastory/kaupungit/espoo/innopoli2/) |
+| 5 | **Min Innopoli (Sodexo)** | Tekniikantie 12 (Innopoli 1) | 11:00 – 13:30 | [sodexo.fi/ravintolat/min-innopoli](https://www.sodexo.fi/ravintolat/min-innopoli) |
+| 6 | **Prandia Din Maari** | Vaisalantie 4 (Innopoli 3) | 11:00 – 13:30 | [prandia.fi/prandia-din-maari-lounas-otaniemi-tapiola.html](https://prandia.fi/prandia-din-maari-lounas-otaniemi-tapiola.html) |
 
 ---
 
@@ -25,8 +26,7 @@ A modern, responsive, fast HTML web application designed to be hosted on **GitHu
 - 🌱 **Dietary Filters**: One-tap filter chips for **Vegan** (VE), **Vegetarian**, **Gluten-free** (G), **Lactose-free** (L/VL), **Dairy-free** (M), and **Garlic-free**.
 - 🟢 **Live Status Pill**: Dynamically calculates whether lunch is currently open, opening soon, or closed based on live Helsinki local time (EEST).
 - ⭐ **Favorites & Pinning**: Pin your favorite restaurants to always display at the top of the feed (saved in `localStorage`).
-- 📋 **Slack & Teams Markdown Export**: One-click button to copy the entire day's lunch menu formatted in Markdown for easy posting to Slack, Teams, Discord, or WhatsApp channels.
-- 🗺️ **Campus Guide & Google Maps**: Direct links to open each restaurant's location in Google Maps with estimated walking times from Otaniemi metro station.
+- 📍 **Google Maps Integration**: Direct links on restaurant titles and addresses to open directions in Google Maps.
 - 🌐 **Dual Language (FI / EN)**: Instant toggle between Finnish and English.
 - 🌙 **Dark & Light Mode**: Smooth theme switching with automatic system preference detection.
 - ⚡ **100% Client-Side + Automated GitHub Action**: Fully automated weekday updater that keeps `data/menus.json` fresh with 0 hosting costs.
@@ -38,14 +38,14 @@ A modern, responsive, fast HTML web application designed to be hosted on **GitHu
 ```mermaid
 graph LR
     A[Cron Schedule / GitHub Actions] -->|Weekday Mornings| B[scripts/fetch_menus.py]
-    B -->|Scrapes 5 Restaurant Sites| C[(data/menus.json)]
+    B -->|Scrapes 6 Restaurant Sites| C[(data/menus.json)]
     C -->|Static JSON Asset| D[GitHub Pages / index.html]
     D -->|Fast Client App| E[User Mobile & Desktop Browsers]
 ```
 
 1. **Automated Fetcher (`scripts/fetch_menus.py`)**:
    - Runs on GitHub Actions every weekday morning (and can be triggered manually anytime).
-   - Scrapes and parses the latest daily and weekly menus from all 5 restaurant sites.
+   - Scrapes and parses the latest daily and weekly menus from all 6 restaurant sites.
    - Extracts dishes, prices, opening hours, coordinates, and dietary badges (`G`, `L`, `M`, `VE`, `VS`, `ILM`, etc.).
    - Normalizes data into `data/menus.json`.
 2. **Frontend (`index.html`, `style.css`, `app.js`)**:
@@ -111,7 +111,7 @@ python3 -m http.server 8000
 ├── data/
 │   └── menus.json                       # Normalized restaurant menu JSON data
 ├── scripts/
-│   └── fetch_menus.py                   # Python scraper for all 5 restaurants
+│   └── fetch_menus.py                   # Python scraper for all 6 restaurants
 ├── .github/
 │   └── workflows/
 │       └── update_menus.yml             # Automated weekday GitHub Action

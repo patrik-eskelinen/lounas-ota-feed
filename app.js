@@ -340,8 +340,11 @@
       renderFeed();
     });
 
-    // Copy Slack/Teams button
-    document.getElementById('copy-slack-btn').addEventListener('click', copySlackMarkdown);
+    // Copy Slack/Teams button (if present)
+    const copySlackBtn = document.getElementById('copy-slack-btn');
+    if (copySlackBtn) {
+      copySlackBtn.addEventListener('click', copySlackMarkdown);
+    }
 
     // Refresh button
     document.getElementById('refresh-btn').addEventListener('click', () => {
