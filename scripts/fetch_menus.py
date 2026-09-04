@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 Otaniemi Campus Lunch Scraper
-Fetches and structures lunch menus for 5 restaurants in Otaniemi / Innopoli area:
+Fetches and structures lunch menus for 6 restaurants in Otaniemi / Innopoli area:
 1. Ravintola Maukas (Vuorimiehentie 5)
-2. Factory Maarinportti (Maarintie 6)
-3. Tastory Innopoli 2 (Tekniikantie 14)
-4. Min Innopoli / Sodexo (Tekniikantie 12)
-5. Prandia Din Maari (Vaisalantie 4)
+2. Ravintola Nova Maukas (Tietotie 3)
+3. Factory Maarinportti (Maarintie 6)
+4. Tastory Innopoli 2 (Tekniikantie 14)
+5. Min Innopoli / Sodexo (Tekniikantie 12)
+6. Prandia Din Maari (Vaisalantie 4)
 """
 
 import os
@@ -180,7 +181,98 @@ def fetch_maukas():
     }
 
 # -------------------------------------------------------------
-# 2. FACTORY MAARINPORTTI PARSER
+# 2. NOVA MAUKAS PARSER
+# -------------------------------------------------------------
+def fetch_nova_maukas():
+    print("Fetching Nova Maukas...")
+    url = "https://www.mau-kas.fi/nova"
+    opener = make_opener()
+
+    try:
+        opener.open(
+            'https://www.mau-kas.fi/libtent/none/19/2300/style_set_ext_id-muuttujan%20asettaja.html'
+            '?style_set_ext_id=4&redirect_url=https%3A%2F%2Fwww.mau-kas.fi%2Fnova',
+            timeout=12
+        )
+        html = opener.open(url, timeout=12).read().decode('utf-8', errors='ignore')
+    except Exception as e:
+        print(f"Error loading Nova Maukas HTML: {e}")
+        html = ""
+
+    soup = BeautifulSoup(html, 'html.parser')
+
+    day_map = {
+        'MONDAY': 'mon', 'TUESDAY': 'tue', 'WEDNESDAY': 'wed', 'THURSDAY': 'thu', 'FRIDAY': 'fri',
+        'MAANANTAI': 'mon', 'TIISTAI': 'tue', 'KESKIVIIKKO': 'wed', 'TORSTAI': 'thu', 'PERJANTAI': 'fri'
+    }
+
+    days_data = {
+        k: {
+            'day_key': k,
+            'day_fi': DAY_NAMES[k]['fi'],
+            'day_en': DAY_NAMES[k]['en'],
+            'short_fi': DAY_NAMES[k]['short_fi'],
+            'short_en': DAY_NAMES[k]['short_en'],
+            'dishes': []
+        } for k in DAYS_ORDER
+    }
+    cur_day = None
+
+    stop_terms = [
+        'WEEK ', 'WELCOME', 'BREAKFAST', 'G = GLUTEN', 'ALLERGEENIT', 'LOUNASBUFFET',
+        'KASVISLOUNAS', 'KEITTOLOUNAS', 'ANNOSSALAATTI', 'SALAATTIPÖYTÄ', 'MAKSUVÄLINE',
+        'OPISKELIJA', 'TARJOLLA JOKA', 'RAVINTOLA NOVA', 'RAVINTOLA MAUKAS',
+        'ZWO OY', 'ONLINE.FI', 'NOVA@', 'TIETOTIE', 'SYYSKUUN AJAN',
+    ]
+
+    for p in soup.find_all('p'):
+        t = p.get_text(' ', strip=True)
+        if not t:
+            continue
+        u = t.upper().strip()
+
+        matched_day = None
+        for day_name, d_code in day_map.items():
+            if u == day_name or u.startswith(day_name + ' ') or u.startswith(day_name + ':'):
+                matched_day = d_code
+                break
+
+        if matched_day:
+            cur_day = matched_day
+        elif cur_day:
+            if any(term in u for term in stop_terms):
+                if 'WEEK ' not in u:
+                    cur_day = None
+                continue
+            if len(t) > 3:
+                dish_obj = {
+                    'title': clean_dish_title(t),
+                    'diets': extract_diets(t)
+                }
+                if not any(d['title'] == dish_obj['title'] for d in days_data[cur_day]['dishes']):
+                    days_data[cur_day]['dishes'].append(dish_obj)
+
+    return {
+        'id': 'nova_maukas',
+        'name': 'Ravintola Nova Maukas',
+        'url': 'https://www.mau-kas.fi/nova',
+        'maps_query': 'Ravintola Nova Maukas, Tietotie 3, Espoo',
+        'location': 'Tietotie 3, 02150 Espoo',
+        'area': 'Otaniemi',
+        'distance_tag': 'Otaniemi / Innopoli',
+        'walk_time': '8 min metroasemalta',
+        'lunch_hours': '10:30 – 14:00',
+        'breakfast_hours': '08:00 – 09:30',
+        'price': '9,50 € – 13,00 €',
+        'price_info': 'Lounasbuffet 13,00 € | Kasvislounas 11,50 € | Keittolounas 11,00 € | Annossalaatti 12,00 € | Salaattipöytä 9,50 €',
+        'description_fi': 'Ravintola Nova Maukas – kotitekoista, tuoreista luomuaineksista valmistettua lounasruokaa Tietotiellä.',
+        'description_en': 'Nova Maukas – homemade lunch from fresh organic ingredients at Tietotie 3.',
+        'accent_color': '#2e7d32',
+        'days': days_data
+    }
+
+# -------------------------------------------------------------
+# 3. FACTORY MAARINPORTTI PARSER
 # -------------------------------------------------------------
 def fetch_factory():
     print("Fetching Factory Maarinportti...")
@@ -541,7 +633,7 @@ def main():
     
     restaurants = []
     
-    for scraper in [fetch_maukas, fetch_factory, fetch_tastory, fetch_sodexo, fetch_prandia]:
+    for scraper in [fetch_maukas, fetch_nova_maukas, fetch_factory, fetch_tastory, fetch_sodexo, fetch_prandia]:
         try:
             res = scraper()
             dish_count = sum(len(d['dishes']) for d in res['days'].values())
