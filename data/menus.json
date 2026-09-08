@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-07T16:38:10.208378+03:00",
-    "generated_at_readable": "07.09.2026 16:38",
+    "generated_at": "2026-09-08T11:23:15.715115+03:00",
+    "generated_at_readable": "08.09.2026 11:23",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1395,38 +1395,20 @@
           "short_en": "Thu",
           "dishes": [
             {
-              "title": "Hienonnettua sipulia",
-              "diets": [
-                "*",
-                "G",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Paneer Koseli -leipäjuustokastiketta",
+              "title": "Hernekeittoa",
               "diets": [
                 "*",
                 "A",
                 "G",
                 "ILM",
                 "L",
-                "VS"
+                "M"
               ]
             },
             {
-              "title": "Pitaleipä",
+              "title": "Hienonnettua sipulia",
               "diets": [
-                "A",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Riisiä",
-              "diets": [
+                "*",
                 "G",
                 "L",
                 "M",
@@ -1442,6 +1424,15 @@
                 "M",
                 "VE",
                 "VS"
+              ]
+            },
+            {
+              "title": "Riisiä",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
               ]
             },
             {
@@ -1470,20 +1461,9 @@
               ]
             },
             {
-              "title": "Ahven wallenberg",
+              "title": "Paistettua kalaa Katkarapu-Hollandaise L",
               "diets": [
-                "A",
                 "L"
-              ]
-            },
-            {
-              "title": "Nordic-guacamolea",
-              "diets": [
-                "*",
-                "A",
-                "G",
-                "L",
-                "VS"
               ]
             },
             {
@@ -1492,15 +1472,6 @@
                 "A",
                 "G",
                 "L"
-              ]
-            },
-            {
-              "title": "Satokauden kasviksia",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
               ]
             },
             {
@@ -1525,17 +1496,6 @@
                 "L",
                 "M",
                 "VE"
-              ]
-            },
-            {
-              "title": "Hernekeittoa",
-              "diets": [
-                "*",
-                "A",
-                "G",
-                "ILM",
-                "L",
-                "M"
               ]
             }
           ]
@@ -1678,27 +1638,21 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": []
-        },
-        "tue": {
-          "day_key": "tue",
-          "day_fi": "Tiistai",
-          "day_en": "Tuesday",
-          "short_fi": "Ti",
-          "short_en": "Tue",
           "dishes": [
             {
-              "title": "MIN Chef: Pepperoni Pinsa",
-              "price": "14,00 €",
+              "title": "MIN Chef: Naudan lehtipihvi, paahdettua valkosipuli-punaviinikastiketta, mausteisia lohkoperunoita ja wokattuja kasviksia",
+              "price": "17,05 €",
               "diets": [
-                "L"
+                "G",
+                "M"
               ]
             },
             {
-              "title": "MIN Chef: Tomaatti ja mozzarella Pinsa",
-              "price": "14,00 €",
+              "title": "MIN Chef: Vietnamilainen riisinuudelikulho ja pariloitua nieriää",
+              "price": "17,05 €",
               "diets": [
-                "L"
+                "G",
+                "M"
               ]
             },
             {
@@ -1707,7 +1661,7 @@
               "diets": []
             },
             {
-              "title": "Buffet Bataattisosekeittoa",
+              "title": "Buffet Palsternakkasosekeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1715,23 +1669,21 @@
               ]
             },
             {
-              "title": "Buffet Italialaisia kasvispyöryköitä pesto-tomaattikastikkeessa ja pastaa",
+              "title": "Buffet Quornfilettä hoisinkastikkeessa, riisiä ja vegaanista limemajoneesia",
               "price": "",
               "diets": [
-                "G",
-                "L"
+                "M"
               ]
             },
             {
-              "title": "Buffet Libanonilaista broileria, kurkumariisiä ja valkosipulimajoneesia",
+              "title": "Buffet Lihapullia arrabbiata kastikkeessa ja paahdettuja ricotta perunoita",
               "price": "",
               "diets": [
-                "G",
-                "L"
+                "G"
               ]
             },
             {
-              "title": "Dessert Sitruuna-salmiakkirahkaa",
+              "title": "Dessert Jätskibuffa, tuunaa oma annoksesi erilaisilla kastikkeilla ja lisukkeilla",
               "price": "",
               "diets": [
                 "G",
@@ -1739,6 +1691,14 @@
               ]
             }
           ]
+        },
+        "tue": {
+          "day_key": "tue",
+          "day_fi": "Tiistai",
+          "day_en": "Tuesday",
+          "short_fi": "Ti",
+          "short_en": "Tue",
+          "dishes": []
         },
         "wed": {
           "day_key": "wed",
