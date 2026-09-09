@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-08T15:15:40.336035+03:00",
-    "generated_at_readable": "08.09.2026 15:15",
+    "generated_at": "2026-09-09T11:25:57.611333+03:00",
+    "generated_at_readable": "09.09.2026 11:25",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1292,18 +1292,6 @@
               ]
             },
             {
-              "title": "Luomutofua ja kasviksia hapanimeläkastikkeessa",
-              "diets": [
-                "*",
-                "A",
-                "G",
-                "ILM",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
               "title": "Riisiä",
               "diets": [
                 "G",
@@ -1698,7 +1686,56 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef: Pepperoni Pinsa",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Chef: Tomaatti-mozzarella Pinsa",
+              "price": "14,00 €",
+              "diets": []
+            },
+            {
+              "title": "Buffet MIN Lunch buffet:",
+              "price": "14,00 €",
+              "diets": []
+            },
+            {
+              "title": "Buffet Bataattisosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Buffet Kasvispyöryköitä Italialaisittain pesto-tomaattikastikkeessa ja pastaa",
+              "price": "",
+              "diets": [
+                "M"
+              ]
+            },
+            {
+              "title": "Buffet Libanonilaista broileria, kurkumariisiä ja valkosipulimajoneesia",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Dessert Sitruuna-salmiakkirahkaa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            }
+          ]
         },
         "wed": {
           "day_key": "wed",
@@ -1706,57 +1743,7 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": [
-            {
-              "title": "MIN Chef: Shanghai taco broilerilla",
-              "price": "14,00 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef: Shanghai taco mureilla kauralastuilla",
-              "price": "14,00 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "Buffet MIN Lunch buffet:",
-              "price": "",
-              "diets": []
-            },
-            {
-              "title": "Buffet Parsakeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Buffet Garam masala -tofua ja basmatiriisiä",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "Buffet Lasagnea, rucolaa ja pinaattia",
-              "price": "",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "Dessert Moussea suklaalla, jogurtilla ja karpaloilla",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            }
-          ]
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
