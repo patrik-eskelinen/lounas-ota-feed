@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-09T15:26:42.496155+03:00",
-    "generated_at_readable": "09.09.2026 15:26",
+    "generated_at": "2026-09-10T11:27:44.756247+03:00",
+    "generated_at_readable": "10.09.2026 11:27",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1383,17 +1383,6 @@
           "short_en": "Thu",
           "dishes": [
             {
-              "title": "Hernekeittoa",
-              "diets": [
-                "*",
-                "A",
-                "G",
-                "ILM",
-                "L",
-                "M"
-              ]
-            },
-            {
               "title": "Hienonnettua sipulia",
               "diets": [
                 "*",
@@ -1415,6 +1404,15 @@
               ]
             },
             {
+              "title": "Limemajoneesia L,M,G,Veg",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
               "title": "Riisiä",
               "diets": [
                 "G",
@@ -1424,11 +1422,12 @@
               ]
             },
             {
-              "title": "Artesaanimakkaraa, salsiccia ja bratvurstia",
+              "title": "Artesaanimakkaraa, Salsiccia ja Bratwurstia L,M,G,VS",
               "diets": [
                 "G",
                 "L",
-                "M"
+                "M",
+                "VS"
               ]
             },
             {
@@ -1449,15 +1448,8 @@
               ]
             },
             {
-              "title": "Paistettua kalaa Katkarapu-Hollandaise L",
+              "title": "Paistettua kalaa katkarapu-hollandaise L,G",
               "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "Karamellisoitua ruusukaalia",
-              "diets": [
-                "A",
                 "G",
                 "L"
               ]
@@ -1743,37 +1735,28 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": []
-        },
-        "thu": {
-          "day_key": "thu",
-          "day_fi": "Torstai",
-          "day_en": "Thursday",
-          "short_fi": "To",
-          "short_en": "Thu",
           "dishes": [
             {
-              "title": "MIN Chef: Teriyaki-paahdettu lohi ja wokattuja kasviksia",
-              "price": "15,50 €",
+              "title": "MIN Chef: Shanghai taco broilerilla",
+              "price": "14,00 €",
               "diets": [
-                "G",
                 "L"
               ]
             },
             {
-              "title": "MIN Chef: Paistettuja dumplingseja, tofua ja nuudeleita",
+              "title": "MIN Chef: Shanghai taco mureilla kauralastuilla",
               "price": "14,00 €",
               "diets": [
-                "L"
+                "M"
               ]
             },
             {
               "title": "Buffet MIN Lunch buffet:",
-              "price": "14,00 €",
+              "price": "",
               "diets": []
             },
             {
-              "title": "Buffet Herkkusienikeittoa",
+              "title": "Buffet Parsakeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1781,7 +1764,7 @@
               ]
             },
             {
-              "title": "Buffet Härkis-ratatouillea ja täysjyväriisiä sekä vegaanista lime-yrttimajoneesia",
+              "title": "Buffet Garam masala -tofua ja basmatiriisiä",
               "price": "",
               "diets": [
                 "G",
@@ -1789,19 +1772,28 @@
               ]
             },
             {
-              "title": "Buffet Grillattuja broilerin paistileikkeitä, paahdettua perunaa ja aurajuustoranskankermaa",
+              "title": "Buffet Lasagnea",
               "price": "",
               "diets": [
-                "G",
                 "L"
               ]
             },
             {
-              "title": "Dessert Lettubuffet, valitsemillasi lisukkeilla",
+              "title": "Dessert Jogurtti-suklaamousse ja karpaloita",
               "price": "",
-              "diets": []
+              "diets": [
+                "G"
+              ]
             }
           ]
+        },
+        "thu": {
+          "day_key": "thu",
+          "day_fi": "Torstai",
+          "day_en": "Thursday",
+          "short_fi": "To",
+          "short_en": "Thu",
+          "dishes": []
         },
         "fri": {
           "day_key": "fri",
@@ -1853,7 +1845,7 @@
               ]
             },
             {
-              "title": "Dessert Minttuista hedelmäsalaattia ja mascarponevaahtoa",
+              "title": "Dessert Mascarpone-hedelmärahkaa",
               "price": "",
               "diets": [
                 "G",
