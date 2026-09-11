@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-10T15:20:04.634892+03:00",
-    "generated_at_readable": "10.09.2026 15:20",
+    "generated_at": "2026-09-11T11:22:13.736825+03:00",
+    "generated_at_readable": "11.09.2026 11:22",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1793,24 +1793,16 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": []
-        },
-        "fri": {
-          "day_key": "fri",
-          "day_fi": "Perjantai",
-          "day_en": "Friday",
-          "short_fi": "Pe",
-          "short_en": "Fri",
           "dishes": [
             {
-              "title": "MIN Chef: Savujuustoburger ja maalaisranskalaisia",
-              "price": "14,00 €",
+              "title": "MIN Chef: Teriyaki-paahdettu lohi ja wokattuja kasviksia",
+              "price": "15,50 €",
               "diets": [
                 "M"
               ]
             },
             {
-              "title": "MIN Chef: Portbello burger ja maalaisranskalaisia",
+              "title": "MIN Chef: Paistettuja dumplingseja, tofua ja nuudeleita",
               "price": "14,00 €",
               "diets": [
                 "M"
@@ -1822,7 +1814,15 @@
               "diets": []
             },
             {
-              "title": "Buffet Andalusialaista kasviskeittoa",
+              "title": "Buffet Herkkusienikeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Buffet Härkis-ratatouillea ja täysjyväriisiä sekä vegaanista lime-yrttimajoneesia",
               "price": "",
               "diets": [
                 "G",
@@ -1830,7 +1830,7 @@
               ]
             },
             {
-              "title": "Buffet Papu-linssicurrya,vihannesriisiä ja paahdettua pähkinää",
+              "title": "Buffet Grillattuja broilerin paistileikkeitä, paahdettua perunaa ja aurajuustoranskankermaa",
               "price": "",
               "diets": [
                 "G",
@@ -1838,21 +1838,19 @@
               ]
             },
             {
-              "title": "Buffet Porsaan wienerleikettä ja juustoperunoita",
+              "title": "Dessert Lettubuffet, valitsemillasi lisukkeilla",
               "price": "",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "Dessert Mascarpone-hedelmärahkaa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
+              "diets": []
             }
           ]
+        },
+        "fri": {
+          "day_key": "fri",
+          "day_fi": "Perjantai",
+          "day_en": "Friday",
+          "short_fi": "Pe",
+          "short_en": "Fri",
+          "dishes": []
         }
       }
     },
