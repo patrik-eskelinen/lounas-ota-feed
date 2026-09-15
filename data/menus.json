@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-15T12:01:11.051536+03:00",
-    "generated_at_readable": "15.09.2026 12:01",
+    "generated_at": "2026-09-15T15:50:19.418619+03:00",
+    "generated_at_readable": "15.09.2026 15:50",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -717,8 +717,9 @@
               ]
             },
             {
-              "title": "Vegaaninen yrtti-orzotto Quornilla ja herkkusienillä (VE)",
+              "title": "Vegaaninen yrtti-risotto Quornilla ja herkkusienillä (VE+G)",
               "diets": [
+                "G",
                 "VE"
               ]
             },
@@ -752,7 +753,7 @@
               ]
             },
             {
-              "title": "Vegan herb orzotto with Quorn and mushrooms (VE)",
+              "title": "Vegan herb risotto with Quorn and mushrooms (VE)",
               "diets": [
                 "VE"
               ]
