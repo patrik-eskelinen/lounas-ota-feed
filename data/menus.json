@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-14T17:20:51.712200+03:00",
-    "generated_at_readable": "14.09.2026 17:20",
+    "generated_at": "2026-09-15T12:01:11.051536+03:00",
+    "generated_at_readable": "15.09.2026 12:01",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1121,6 +1121,16 @@
               ]
             },
             {
+              "title": "Meidän keittiön porkkana-lehtikaalipihvejä",
+              "diets": [
+                "A",
+                "ILM",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
               "title": "Salsa verde",
               "diets": [
                 "A",
@@ -1129,16 +1139,6 @@
                 "M",
                 "VE",
                 "VS"
-              ]
-            },
-            {
-              "title": "Meidän keittiön porkkana-lehtikaalipihvejä",
-              "diets": [
-                "A",
-                "ILM",
-                "L",
-                "M",
-                "VE"
               ]
             },
             {
@@ -1527,29 +1527,21 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": []
-        },
-        "tue": {
-          "day_key": "tue",
-          "day_fi": "Tiistai",
-          "day_en": "Tuesday",
-          "short_fi": "Ti",
-          "short_en": "Tue",
           "dishes": [
             {
-              "title": "MIN Chef: Grillattua lohta ja perunasalaattia",
-              "price": "15,50 €",
+              "title": "MIN Chef: Vietnamilainen riisinuudelikulho ja katkarapuja",
+              "price": "14,00 €",
               "diets": [
                 "G",
                 "M"
               ]
             },
             {
-              "title": "MIN Chef: Porsaan ulkofilepihviä, herkkusienikastiketta ja rosmariiniperunaa",
-              "price": "15,50 €",
+              "title": "MIN Chef: Vietnamilainen riisinuudelikulho ja tofua",
+              "price": "14,00 €",
               "diets": [
                 "G",
-                "L"
+                "M"
               ]
             },
             {
@@ -1558,7 +1550,7 @@
               "diets": []
             },
             {
-              "title": "Buffet Inkivääri-porkkanasosekeittoa",
+              "title": "Buffet Kasvisborssikeittoa ja crème fraîche",
               "price": "",
               "diets": [
                 "G",
@@ -1566,7 +1558,7 @@
               ]
             },
             {
-              "title": "Buffet Linssi-soijatäytteisiä paprikoita, sitruunakastiketta ja jasmineriisiä",
+              "title": "Buffet Vegepyöryköitä tomaattikastikkeessa, riisiä ja pestoa",
               "price": "",
               "diets": [
                 "G",
@@ -1574,21 +1566,29 @@
               ]
             },
             {
-              "title": "Buffet Jauhelihapihvejä, sinappi-kermakastiketta ja perunamuusia",
+              "title": "Buffet Kievin kanaa, paahdettua yrttiperunaa ja currymajoneesia",
+              "price": "",
+              "diets": [
+                "VL"
+              ]
+            },
+            {
+              "title": "Dessert Jätskibuffa, tuunaa oma annoksesi erilaisilla kastikkeilla ja lisukkeilla",
               "price": "",
               "diets": [
                 "G",
                 "L"
-              ]
-            },
-            {
-              "title": "Dessert Kookos-ananasmoussea",
-              "price": "",
-              "diets": [
-                "G"
               ]
             }
           ]
+        },
+        "tue": {
+          "day_key": "tue",
+          "day_fi": "Tiistai",
+          "day_en": "Tuesday",
+          "short_fi": "Ti",
+          "short_en": "Tue",
+          "dishes": []
         },
         "wed": {
           "day_key": "wed",
@@ -1750,7 +1750,7 @@
               ]
             },
             {
-              "title": "Dessert Omenapiirakkaa ja vaniljakastiketta",
+              "title": "Dessert Korvapuustikääretorttua",
               "price": "",
               "diets": [
                 "L"
