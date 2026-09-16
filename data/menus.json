@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-15T15:50:19.418619+03:00",
-    "generated_at_readable": "15.09.2026 15:50",
+    "generated_at": "2026-09-16T11:53:39.351491+03:00",
+    "generated_at_readable": "16.09.2026 11:53",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1234,19 +1234,8 @@
               ]
             },
             {
-              "title": "Tattilasagnea",
+              "title": "Tattilasagne L,VS saatavana vegaaninen vaihtoehto",
               "diets": [
-                "A",
-                "L",
-                "VS"
-              ]
-            },
-            {
-              "title": "Basmatiriisiä",
-              "diets": [
-                "G",
-                "L",
-                "M",
                 "VE"
               ]
             },
@@ -1257,6 +1246,15 @@
                 "G",
                 "L",
                 "M"
+              ]
+            },
+            {
+              "title": "Basmatiriisiä",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
               ]
             },
             {
@@ -1307,11 +1305,8 @@
               ]
             },
             {
-              "title": "Karpalo-puolukkapaistosta ja kinuskikermaa",
-              "diets": [
-                "A",
-                "L"
-              ]
+              "title": "Raparperi-marjapaistosta ja vaniljakermaa",
+              "diets": []
             }
           ]
         },
@@ -1589,24 +1584,22 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
-        },
-        "wed": {
-          "day_key": "wed",
-          "day_fi": "Keskiviikko",
-          "day_en": "Wednesday",
-          "short_fi": "Ke",
-          "short_en": "Wed",
           "dishes": [
             {
-              "title": "MIN Chef: Bang bang broileria",
-              "price": "14,00 €",
-              "diets": []
+              "title": "MIN Chef: Grillattua lohta ja perunasalaattia",
+              "price": "15,50 €",
+              "diets": [
+                "G",
+                "M"
+              ]
             },
             {
-              "title": "MIN Chef: Bang bang halloumia",
-              "price": "14,00 €",
-              "diets": []
+              "title": "MIN Chef: Porsaan ulkofilepihviä, herkkusienikastiketta ja rosmariiniperunaa",
+              "price": "15,50 €",
+              "diets": [
+                "G",
+                "L"
+              ]
             },
             {
               "title": "Buffet MIN Lunch buffet:",
@@ -1614,15 +1607,7 @@
               "diets": []
             },
             {
-              "title": "Buffet Sodexo 60v. teema: Ranskalaista sipulikeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "Buffet Sodexo 60 v. teema: Kasvispihvejä ranskalaiseen tapaan, valkosipuliperunaa ja yrtti-creme fraichea",
+              "title": "Buffet Inkivääri-porkkanasosekeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1630,22 +1615,37 @@
               ]
             },
             {
-              "title": "Buffet Sodexo 60 v. teema: Naudanlihapataa punaviinissä, pilahviriisiä ja paahdettuja kasviksia",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "Dessert Sodexo 60v. teema: Crème brûlée - poltettua vaniljakreemiä",
+              "title": "Buffet Linssi-soijatäytteisiä paprikoita, sitruunakastiketta ja jasmineriisiä",
               "price": "",
               "diets": [
                 "G",
                 "L"
+              ]
+            },
+            {
+              "title": "Buffet Jauhelihapihvejä, sinappi-kermakastiketta ja perunamuusia",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Dessert Suklaa-kinuskimoussea",
+              "price": "",
+              "diets": [
+                "G"
               ]
             }
           ]
+        },
+        "wed": {
+          "day_key": "wed",
+          "day_fi": "Keskiviikko",
+          "day_en": "Wednesday",
+          "short_fi": "Ke",
+          "short_en": "Wed",
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
