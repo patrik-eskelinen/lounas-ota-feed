@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-16T15:46:00.340142+03:00",
-    "generated_at_readable": "16.09.2026 15:46",
+    "generated_at": "2026-09-17T11:58:07.125141+03:00",
+    "generated_at_readable": "17.09.2026 11:58",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1328,14 +1328,6 @@
               ]
             },
             {
-              "title": "Sienispelttiä",
-              "diets": [
-                "A",
-                "ILM",
-                "L"
-              ]
-            },
-            {
               "title": "Paahdettua tofua, vegaanista Ndujaa ja rigatonipastaa",
               "diets": [
                 "A",
@@ -1344,6 +1336,14 @@
                 "M",
                 "VE",
                 "VS"
+              ]
+            },
+            {
+              "title": "Sienispelttiä",
+              "diets": [
+                "A",
+                "ILM",
+                "L"
               ]
             },
             {
@@ -1393,14 +1393,14 @@
               ]
             },
             {
-              "title": "Meidän keittiön pannukakkua",
+              "title": "Meidän keittiön pannukakkua,saatavana G",
               "diets": [
                 "A",
                 "L"
               ]
             },
             {
-              "title": "Raparperi-mansikkahilloketta",
+              "title": "Hilloa",
               "diets": [
                 "G",
                 "L",
@@ -1645,25 +1645,21 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": []
-        },
-        "thu": {
-          "day_key": "thu",
-          "day_fi": "Torstai",
-          "day_en": "Thursday",
-          "short_fi": "To",
-          "short_en": "Thu",
           "dishes": [
             {
-              "title": "MIN Chef: Glaseerattua naudanrintaa, parmesan-polentaa ja paahdettuja kasviksia",
-              "price": "17,05 €",
-              "diets": []
-            },
-            {
-              "title": "MIN Chef: Kukkakaaliwingsejä, parmesan-polentaa ja tzatzikia",
+              "title": "MIN Chef: Bang bang broileria",
               "price": "14,00 €",
               "diets": [
-                "L"
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Chef: Bang bang halloumia",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "VL"
               ]
             },
             {
@@ -1672,15 +1668,7 @@
               "diets": []
             },
             {
-              "title": "Buffet Sodexo 60 v. teema: Vichyssoise, purjo-perunasosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Buffet Sodexo 60 v. teema: Provencelaista kasvispataa, vihannesriisiä ja rouillekastiketta",
+              "title": "Buffet Sodexo 60v. teema: Ranskalaista sipulikeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1688,7 +1676,7 @@
               ]
             },
             {
-              "title": "Buffet Sodexo 60 v. teema: Lyonin kanaa, dijon-perunamuusia ja hunajapaahdettua ruusukaalia",
+              "title": "Buffet Sodexo 60 v. teema: Kasvispihvejä ranskalaiseen tapaan, valkosipuliperunaa ja yrtti-creme fraichea",
               "price": "",
               "diets": [
                 "G",
@@ -1696,11 +1684,30 @@
               ]
             },
             {
-              "title": "Dessert Sodexo 60 v. teema: Crepes Suzette, Lettubuffet, valitsemillasi lisukkeilla",
+              "title": "Buffet Sodexo 60 v. teema: Naudanlihapataa punaviinissä, pilahviriisiä ja paahdettuja kasviksia",
               "price": "",
-              "diets": []
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "Dessert Sodexo 60v. teema: Crème brûlée",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
             }
           ]
+        },
+        "thu": {
+          "day_key": "thu",
+          "day_fi": "Torstai",
+          "day_en": "Thursday",
+          "short_fi": "To",
+          "short_en": "Thu",
+          "dishes": []
         },
         "fri": {
           "day_key": "fri",
@@ -1751,7 +1758,7 @@
               ]
             },
             {
-              "title": "Dessert Korvapuustikääretorttua",
+              "title": "Dessert Omenapiirakkaa ja vaniljakastiketta",
               "price": "",
               "diets": [
                 "L"
