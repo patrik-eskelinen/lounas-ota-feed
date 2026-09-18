@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-17T15:43:44.965026+03:00",
-    "generated_at_readable": "17.09.2026 15:43",
+    "generated_at": "2026-09-18T11:33:01.555552+03:00",
+    "generated_at_readable": "18.09.2026 11:33",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1426,13 +1426,8 @@
           "short_en": "Fri",
           "dishes": [
             {
-              "title": "Bataattikeittoa",
-              "diets": [
-                "*",
-                "A",
-                "G",
-                "L"
-              ]
+              "title": "Kurpitsakeittoa",
+              "diets": []
             },
             {
               "title": "Vegeburgeri ja vegaanista \"ricottaa\"",
@@ -1475,15 +1470,6 @@
               "diets": [
                 "G",
                 "ILM",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Satokauden kasviksia",
-              "diets": [
-                "G",
                 "L",
                 "M",
                 "VE"
@@ -1707,25 +1693,21 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": []
-        },
-        "fri": {
-          "day_key": "fri",
-          "day_fi": "Perjantai",
-          "day_en": "Friday",
-          "short_fi": "Pe",
-          "short_en": "Fri",
           "dishes": [
             {
-              "title": "MIN Chef: Juustohampurilainen ja maalaisranskalaisia",
-              "price": "14,00 €",
-              "diets": []
+              "title": "MIN Chef: Glaseerattua naudanrintaa, parmesan-polentaa ja paahdettuja kasviksia",
+              "price": "17,05 €",
+              "diets": [
+                "G",
+                "L"
+              ]
             },
             {
-              "title": "MIN Chef: Punajuuri-vuohenjuustohampurilainen ja maalaisranskalaisia",
+              "title": "MIN Chef: Kukkakaaliwingsejä, parmesan-polentaa ja tzatzikia",
               "price": "14,00 €",
               "diets": [
-                "VL"
+                "G",
+                "L"
               ]
             },
             {
@@ -1734,7 +1716,7 @@
               "diets": []
             },
             {
-              "title": "Buffet Tomaattikeittoa",
+              "title": "Buffet Sodexo 60 v. teema: Vichyssoise, purjo-perunasosekeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1742,7 +1724,7 @@
               ]
             },
             {
-              "title": "Buffet Nyhtökaura ratatouillea ja riisiä",
+              "title": "Buffet Sodexo 60 v. teema: Provencelaista kasvispataa, vihannesriisiä ja rouillekastiketta",
               "price": "",
               "diets": [
                 "G",
@@ -1750,21 +1732,27 @@
               ]
             },
             {
-              "title": "Buffet Yön yli haudutettua bbq-possua, paahdettua yrttiperunaa ja porkkanaa",
+              "title": "Buffet Sodexo 60 v. teema: Lyonin kanaa, dijon-perunamuusia",
               "price": "",
               "diets": [
                 "G",
-                "M"
-              ]
-            },
-            {
-              "title": "Dessert Omenapiirakkaa ja vaniljakastiketta",
-              "price": "",
-              "diets": [
                 "L"
               ]
+            },
+            {
+              "title": "Dessert Sodexo 60 v. teema: Crepes Suzette, Lettubuffet, valitsemillasi lisukkeilla",
+              "price": "",
+              "diets": []
             }
           ]
+        },
+        "fri": {
+          "day_key": "fri",
+          "day_fi": "Perjantai",
+          "day_en": "Friday",
+          "short_fi": "Pe",
+          "short_en": "Fri",
+          "dishes": []
         }
       }
     },
