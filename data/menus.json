@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-22T15:46:45.421550+03:00",
-    "generated_at_readable": "22.09.2026 15:46",
+    "generated_at": "2026-09-23T11:53:08.336646+03:00",
+    "generated_at_readable": "23.09.2026 11:53",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1528,7 +1528,51 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Juustoista savuporopastaa",
+              "price": "14,00 €",
+              "diets": [
+                "VL"
+              ]
+            },
+            {
+              "title": "MIN Chef Broilerin perhosleikettä, kanttarellikastiketta, uunijuureksia ja ranskalaisia",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Bataattisosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Tomaattista kikherne-kasvismuhennosta ja basmatiriisiä",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Rapeaksi paistettua kampelaa ja Remoulade-kastiketta",
+              "price": "14,00 €",
+              "diets": []
+            },
+            {
+              "title": "MIN Sweet Vadelmamoussea",
+              "price": "",
+              "diets": [
+                "G"
+              ]
+            }
+          ]
         },
         "wed": {
           "day_key": "wed",
@@ -1536,49 +1580,7 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": [
-            {
-              "title": "MIN Chef Naudanliha kebab, pitaleipä ja valkosipuli-kermaviilikastiketta",
-              "price": "14,00 €",
-              "diets": []
-            },
-            {
-              "title": "MIN Chef Grillattua kirjolohta, paahdettua bataattia ja parsakaalia, Hollandaisekastiketta",
-              "price": "15,50 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Kukkakaali-parsakaalikeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Palak paneer -juustocurrya ja ananaschutneyta",
-              "price": "14,00 €",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Karamellisoitua broilerinpaistia, paistettua sipulia ja papuja, jasmineriisiä ja makeaa soijakastiketta",
-              "price": "14,00 €",
-              "diets": []
-            },
-            {
-              "title": "MIN Sweet Ananasrahkaa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            }
-          ]
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
