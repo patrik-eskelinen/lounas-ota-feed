@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-23T15:56:36.358609+03:00",
-    "generated_at_readable": "23.09.2026 15:56",
+    "generated_at": "2026-09-24T11:48:53.304548+03:00",
+    "generated_at_readable": "24.09.2026 11:48",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1274,16 +1274,8 @@
               ]
             },
             {
-              "title": "Täyteläisen maustettua härkäpapua - Härkäpapua Tikka Masala",
-              "diets": [
-                "*",
-                "A",
-                "G",
-                "L",
-                "M",
-                "VE",
-                "VS"
-              ]
+              "title": "Mifua tikka masala L,G,VS",
+              "diets": []
             },
             {
               "title": "Riisiä ja kotimaista kauraa",
@@ -1325,16 +1317,25 @@
               ]
             },
             {
-              "title": "Broileria Jamaican tapaan - Jerk Chicken",
+              "title": "Mausteista broileri-kasviswokkia L,M,VS",
               "diets": [
-                "A",
-                "G",
+                "KASVIS",
                 "L",
+                "M",
                 "VS"
               ]
             },
             {
               "title": "Chili-mangochutneyta",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Raparperi-mansikkahilloketta",
               "diets": [
                 "G",
                 "L",
@@ -1355,15 +1356,6 @@
                 "A",
                 "G",
                 "L"
-              ]
-            },
-            {
-              "title": "Raparperi-mansikkahilloketta",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
               ]
             }
           ]
@@ -1580,7 +1572,54 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Naudanliha kebab, pitaleipä ja valkosipuli-kermaviilikastiketta",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Chef Grillattua kirjolohta, paahdettua bataattia ja parsakaalia, Hollandaisekastiketta",
+              "price": "15,50 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Kukkakaali-parsakaalikeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Palak paneer -juustocurrya ja ananaschutneyta",
+              "price": "14,00 €",
+              "diets": [
+                "G"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Karamellisoitua broilerinpaistia, paistettua sipulia ja papuja, jasmineriisiä ja makeaa soijakastiketta",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Sweet Ananasrahkaa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            }
+          ]
         },
         "thu": {
           "day_key": "thu",
@@ -1588,50 +1627,7 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": [
-            {
-              "title": "MIN Chef Thai green curry tofulla ja basmatiriisiä",
-              "price": "14,00 €",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Chef Porsaan lehtipihvi, BBQ-kastiketta ja lohkoperunoita",
-              "price": "15,50 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Paahdettua paprikakeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Tomaattista mozzarella-härkisperunavuokaa, rucolaa ja pinaattia",
-              "price": "14,00 €",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Kalkkunan paistileikkeitä kermaisessa pippurikastikkeessa, rosmariiniperunoita ja paistettua kuminakaalia",
-              "price": "14,00 €",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Sweet Lettubuffet, valitsemillasi lisukkeilla",
-              "price": "",
-              "diets": []
-            }
-          ]
+          "dishes": []
         },
         "fri": {
           "day_key": "fri",
