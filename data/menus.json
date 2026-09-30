@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-09-29T17:15:37.675779+03:00",
-    "generated_at_readable": "29.09.2026 17:15",
+    "generated_at": "2026-09-30T13:03:19.167719+03:00",
+    "generated_at_readable": "30.09.2026 13:03",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1292,9 +1292,8 @@
               ]
             },
             {
-              "title": "Omenapiirakkaa",
+              "title": "Omenapiirakkaa L,M",
               "diets": [
-                "A",
                 "L",
                 "M"
               ]
@@ -1581,7 +1580,53 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Okonomiyaki ja seesami marinoituja katkarapuja",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Chef Cobb salaatti",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Palsternakkasosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Paistettua tofua ja kasviksia, mausteista couscousia ja yrttijogurttikastiketta",
+              "price": "",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Paistettuja muikkuja, persilja-voiperunoita ja yrttijogurttikastiketta",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Sweet Marjarahka-jogurtti",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            }
+          ]
         },
         "wed": {
           "day_key": "wed",
@@ -1589,53 +1634,7 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": [
-            {
-              "title": "MIN Chef Po'Boy broileripatonki ja ranskalaisia",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Naudan lehtipihvi, cajun maustevoita, maalaisranskalaisia ja wokattuja kasviksia",
-              "price": "17,05 €",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Herkkusienikeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Mehevää nyhtökaura-kasvispataa ja villiriisiä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Jauhelihamureketta, pekoni-punaviinikastiketta ja perunamuusia",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Sweet Kookos-mangomoussea",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            }
-          ]
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
