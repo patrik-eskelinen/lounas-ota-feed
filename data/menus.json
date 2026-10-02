@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-01T17:41:29.115736+03:00",
-    "generated_at_readable": "01.10.2026 17:41",
+    "generated_at": "2026-10-02T13:06:30.460484+03:00",
+    "generated_at_readable": "02.10.2026 13:06",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1431,27 +1431,9 @@
               ]
             },
             {
-              "title": "BBQ Broileri-pannupizzaa ja fetaa",
+              "title": "Päivän pizza L",
               "diets": [
-                "A",
-                "L",
-                "VS"
-              ]
-            },
-            {
-              "title": "Pepperonipannupizzaa ja grillatua paprikaa",
-              "diets": [
-                "A",
                 "L"
-              ]
-            },
-            {
-              "title": "Rucolaa",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
               ]
             },
             {
@@ -1688,37 +1670,23 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": []
-        },
-        "fri": {
-          "day_key": "fri",
-          "day_fi": "Perjantai",
-          "day_en": "Friday",
-          "short_fi": "Pe",
-          "short_en": "Fri",
           "dishes": [
             {
-              "title": "MIN Chef Bbq burger ja maalaisranskalaisia",
+              "title": "MIN Chef Jättilihapullia, tomaatti-pecorinokastiketta ja pastaa",
               "price": "14,00 €",
               "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Halloumiburgeri ja maalaisranskalaisia",
-              "price": "14,00 €",
-              "diets": []
-            },
-            {
-              "title": "MIN Veggie soup Kukkakaalisosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
                 "L"
               ]
             },
             {
-              "title": "MIN Lunch buffet Seesami-valkosipulitofua, kimchiä ja basmatiriisiä",
+              "title": "MIN Chef Savulohipastaa ja rucolapestoa",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Tomaattikeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1726,7 +1694,14 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Suolaisen makeaa porsaankylkeä, curryperunoita, paahdettua paprikaa ja sipulia",
+              "title": "MIN Lunch buffet",
+              "price": "14,00 €",
+              "diets": [
+                "VL"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Stifado broilerista ja basmatiriisiä, sahrami-aiolia",
               "price": "14,00 €",
               "diets": [
                 "G",
@@ -1736,11 +1711,17 @@
             {
               "title": "MIN Sweet",
               "price": "",
-              "diets": [
-                "L"
-              ]
+              "diets": []
             }
           ]
+        },
+        "fri": {
+          "day_key": "fri",
+          "day_fi": "Perjantai",
+          "day_en": "Friday",
+          "short_fi": "Pe",
+          "short_en": "Fri",
+          "dishes": []
         }
       }
     },
