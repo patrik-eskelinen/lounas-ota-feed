@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-06T17:24:39.150620+03:00",
-    "generated_at_readable": "06.10.2026 17:24",
+    "generated_at": "2026-10-07T13:38:14.116410+03:00",
+    "generated_at_readable": "07.10.2026 13:38",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -955,7 +955,7 @@
               ]
             },
             {
-              "title": "Paahdettua maalaiskanan paistileikettä dijon-pippurikastikkeessa (L+G) lohkoperunat (VE+G)",
+              "title": "Paahdettua kanan paistileikettä dijon-pippurikastikkeessa (L+G) lohkoperunat (VE+G)",
               "diets": [
                 "G",
                 "L",
@@ -1000,7 +1000,7 @@
               ]
             },
             {
-              "title": "Roasted chicken thigh in Dijon-pepper sauce (L+G) potato wedges (VE+G)",
+              "title": "Roasted chicken thigh fillet in Dijon-pepper sauce (L+G) potato wedges (VE+G)",
               "diets": [
                 "G",
                 "L",
@@ -1279,21 +1279,8 @@
               ]
             },
             {
-              "title": "Metsäsieniohukaisia",
-              "diets": [
-                "*",
-                "A",
-                "ILM",
-                "L"
-              ]
-            },
-            {
-              "title": "Raejuusto skagenia",
-              "diets": [
-                "A",
-                "G",
-                "L"
-              ]
+              "title": "Pinaattiohukaisia ja puolukkahilloa",
+              "diets": []
             },
             {
               "title": "Kirjolohicoulibiac",
@@ -1352,13 +1339,8 @@
               ]
             },
             {
-              "title": "Ruismurupaistosta ja mustikkaa",
-              "diets": [
-                "A",
-                "L",
-                "M",
-                "VE"
-              ]
+              "title": "Marjoja ja ruismurupaistosta",
+              "diets": []
             },
             {
               "title": "Vaniljakermavaahtoa",
@@ -1702,31 +1684,25 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
-        },
-        "wed": {
-          "day_key": "wed",
-          "day_fi": "Keskiviikko",
-          "day_en": "Wednesday",
-          "short_fi": "Ke",
-          "short_en": "Wed",
           "dishes": [
             {
-              "title": "MIN Chef Satay kirjolohi ja kevätkääryle bowl nuudeleilla",
+              "title": "MIN Chef Filippiiniläistä adoboa porsaanlihasta ja jasminriisiä",
               "price": "14,00 €",
               "diets": [
+                "G",
                 "M"
               ]
             },
             {
-              "title": "MIN Chef Uuniperunat feta-kasvistäytteellä",
+              "title": "MIN Chef Paistettua riisiä, vihanneksia ja katkarapuja",
               "price": "14,00 €",
               "diets": [
-                "G"
+                "G",
+                "L"
               ]
             },
             {
-              "title": "MIN Veggie soup Bataattisosekeittoa",
+              "title": "MIN Veggie soup Kurpitsa-tyrnikeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1734,27 +1710,38 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Mifuchiliä, paprikariisiä ja jogurttikastiketta",
+              "title": "MIN Lunch buffet Kikherne-kukkakaalicurrya, basmatiriisiä ja korianteri-soijajogurttia",
               "price": "14,00 €",
               "diets": [
-                "G"
+                "G",
+                "M"
               ]
             },
             {
-              "title": "MIN Lunch buffet Blackened chicken, yrttipaahdettuja perunoita ja kasviksia sekä jogurttikastiketta",
+              "title": "MIN Lunch buffet Juustokastikkeella kuorrutettua seifilettä ja uunilohkoperunaa",
               "price": "",
               "diets": [
-                "G"
+                "G",
+                "L"
               ]
             },
             {
               "title": "MIN Sweet",
               "price": "",
               "diets": [
-                "G"
+                "G",
+                "L"
               ]
             }
           ]
+        },
+        "wed": {
+          "day_key": "wed",
+          "day_fi": "Keskiviikko",
+          "day_en": "Wednesday",
+          "short_fi": "Ke",
+          "short_en": "Wed",
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
