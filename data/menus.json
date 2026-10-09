@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-08T17:48:14.216411+03:00",
-    "generated_at_readable": "08.10.2026 17:48",
+    "generated_at": "2026-10-09T13:58:15.421162+03:00",
+    "generated_at_readable": "09.10.2026 13:58",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1796,29 +1796,23 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": []
-        },
-        "fri": {
-          "day_key": "fri",
-          "day_fi": "Perjantai",
-          "day_en": "Friday",
-          "short_fi": "Pe",
-          "short_en": "Fri",
           "dishes": [
             {
-              "title": "MIN Chef Aurajuusto-naudanlihaburger ja maalaisranskalaisia",
-              "price": "14,00 €",
-              "diets": []
-            },
-            {
-              "title": "MIN Chef Burger kasvispihvillä ja maalaisranskalaisia",
+              "title": "MIN Chef Vietnamilainen broiler bahn mi ja Valkosipuli-voiranskalaiset",
               "price": "14,00 €",
               "diets": [
-                "KASVIS"
+                "L"
               ]
             },
             {
-              "title": "MIN Veggie soup Punajuurisosekeittoa",
+              "title": "MIN Chef Vietnamilainen tofu bahn mi ja valkosipuli-voiranskalaiset",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Kevätsipuli-perunasosekeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1826,17 +1820,20 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Butter tofua, basmatiriisiä ja mintturaitaa",
+              "title": "MIN Lunch buffet Tomaatti-linssimuhennosta ja riisiä",
               "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Ranskankermalla ja pekonilla maustettua riistakäristystä, perunamuusia ja puolukkaa",
+              "price": "",
               "diets": [
                 "G",
                 "L"
               ]
-            },
-            {
-              "title": "MIN Lunch buffet Sveitsinleikkeitä,valkosipuliperunaa ja dijonmajoneesia",
-              "price": "",
-              "diets": []
             },
             {
               "title": "MIN Sweet",
@@ -1844,6 +1841,14 @@
               "diets": []
             }
           ]
+        },
+        "fri": {
+          "day_key": "fri",
+          "day_fi": "Perjantai",
+          "day_en": "Friday",
+          "short_fi": "Pe",
+          "short_en": "Fri",
+          "dishes": []
         }
       }
     },
