@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-12T19:55:12.668862+03:00",
-    "generated_at_readable": "12.10.2026 19:55",
+    "generated_at": "2026-10-13T14:14:18.070322+03:00",
+    "generated_at_readable": "13.10.2026 14:14",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1289,12 +1289,8 @@
               ]
             },
             {
-              "title": "Vadelmapiirakkaa",
-              "diets": [
-                "A",
-                "L",
-                "M"
-              ]
+              "title": "Omenapiirakkaa",
+              "diets": []
             },
             {
               "title": "Vaniljakastiketta",
@@ -1313,15 +1309,6 @@
           "short_fi": "Ke",
           "short_en": "Wed",
           "dishes": [
-            {
-              "title": "Satokauden kasviksia",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
             {
               "title": "Linssi-kookoskeittoa",
               "diets": [
@@ -1384,6 +1371,15 @@
               ]
             },
             {
+              "title": "Satokauden kasviksia",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
               "title": "Keitettyjä perunoita",
               "diets": [
                 "*",
@@ -1421,7 +1417,7 @@
               ]
             },
             {
-              "title": "Sienispelttiä",
+              "title": "Meidän keittiön porkkanaohukaisia",
               "diets": [
                 "A",
                 "ILM",
@@ -1429,35 +1425,11 @@
               ]
             },
             {
-              "title": "Paahdettua tofua, vegaanista Ndujaa ja rigatonipastaa",
+              "title": "Meidän keittiön lasagnea",
               "diets": [
                 "A",
-                "ILM",
                 "L",
-                "M",
-                "VE",
                 "VS"
-              ]
-            },
-            {
-              "title": "Saksanhirvi-juurespataa",
-              "diets": [
-                "*",
-                "G",
-                "L",
-                "M"
-              ]
-            },
-            {
-              "title": "Persiljaperunoita",
-              "diets": [
-                "*",
-                "A",
-                "G",
-                "ILM",
-                "L",
-                "M",
-                "VE"
               ]
             },
             {
@@ -1557,6 +1529,13 @@
               ]
             },
             {
+              "title": "Metsästäjänleike keittiön tapaan",
+              "diets": [
+                "A",
+                "L"
+              ]
+            },
+            {
               "title": "Satokauden kasviksia",
               "diets": [
                 "G",
@@ -1570,13 +1549,6 @@
               "diets": [
                 "A",
                 "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Metsästäjänleike keittiön tapaan",
-              "diets": [
-                "A",
                 "L"
               ]
             }
@@ -1606,32 +1578,23 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": []
-        },
-        "tue": {
-          "day_key": "tue",
-          "day_fi": "Tiistai",
-          "day_en": "Tuesday",
-          "short_fi": "Ti",
-          "short_en": "Tue",
           "dishes": [
             {
-              "title": "MIN Chef Bibimbap naudan jauhelihasta",
+              "title": "MIN Chef Chicken tacoja mexican salsaa, ranskankermaa ja Sweet & sour punasipulia",
               "price": "14,00 €",
               "diets": [
-                "G",
-                "M"
+                "L"
               ]
             },
             {
-              "title": "MIN Chef Soija bibimbab gochujang-kastikkeella",
+              "title": "MIN Chef Sieni-viikunarisottoa, paahdettua myskikurpitsaa ja saksanpähkinää",
               "price": "14,00 €",
               "diets": [
-                "M"
+                "G"
               ]
             },
             {
-              "title": "MIN Veggie soup Herkkusienikeittoa",
+              "title": "MIN Veggie soup Juuressosekeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1639,25 +1602,37 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Seitan kebab, valkosipulikastiketta, basmatiriisiä ja pitaleipää",
+              "title": "MIN Lunch buffet Mausteista linssipataa, riisiä ja korianteri-soijajogurttikastiketta",
               "price": "14,00 €",
               "diets": [
+                "G",
                 "M"
               ]
             },
             {
-              "title": "MIN Lunch buffet Paneroitua Alaskan seitiä ja tilli- voiperunoita ja piparjuuri- majoneesia",
+              "title": "MIN Lunch buffet Bolognesea, spaghettia ja parmesanlastuja",
               "price": "",
               "diets": [
-                "G"
+                "VL"
               ]
             },
             {
               "title": "MIN Sweet",
               "price": "",
-              "diets": []
+              "diets": [
+                "G",
+                "L"
+              ]
             }
           ]
+        },
+        "tue": {
+          "day_key": "tue",
+          "day_fi": "Tiistai",
+          "day_en": "Tuesday",
+          "short_fi": "Ti",
+          "short_en": "Tue",
+          "dishes": []
         },
         "wed": {
           "day_key": "wed",
