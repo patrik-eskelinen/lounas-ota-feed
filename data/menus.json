@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-13T18:13:11.124558+03:00",
-    "generated_at_readable": "13.10.2026 18:13",
+    "generated_at": "2026-10-14T12:05:47.468558+03:00",
+    "generated_at_readable": "14.10.2026 12:05",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1417,7 +1417,7 @@
               ]
             },
             {
-              "title": "Meidän keittiön porkkanaohukaisia",
+              "title": "Meidän keittiön feta-porkkanaohukaisia",
               "diets": [
                 "A",
                 "ILM",
@@ -1632,7 +1632,51 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Bibimbap naudan jauhelihasta",
+              "price": "14,00 €",
+              "diets": [
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Chef Soija bibimbab gochujang-kastikkeella",
+              "price": "14,00 €",
+              "diets": [
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Herkkusienikeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Seitan kebab, valkosipulikastiketta, basmatiriisiä ja pitaleipää",
+              "price": "14,00 €",
+              "diets": [
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Paneroitua Alaskan seitiä ja tilli- voiperunoita ja piparjuuri- majoneesia",
+              "price": "",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G"
+              ]
+            }
+          ]
         },
         "wed": {
           "day_key": "wed",
@@ -1640,51 +1684,7 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": [
-            {
-              "title": "MIN Chef Loaded fries pekonilla",
-              "price": "14,00 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Loaded fries tempehillä",
-              "price": "14,00 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Porkkana-savujuustokeittoa",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Kanttarelli-kasvispihvejä, yrttiohraa ja puolukka creme fraichea",
-              "price": "14,00 €",
-              "diets": [
-                "KASVIS"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Cajun paneroitua broileria, bataatti-perunamuusia ja mausteista tomaattimajoneesia",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            }
-          ]
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
