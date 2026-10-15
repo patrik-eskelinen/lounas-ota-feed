@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-14T16:00:03.815361+03:00",
-    "generated_at_readable": "14.10.2026 16:00",
+    "generated_at": "2026-10-15T11:38:46.160461+03:00",
+    "generated_at_readable": "15.10.2026 11:38",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1407,13 +1407,10 @@
           "short_en": "Thu",
           "dishes": [
             {
-              "title": "Täyteläistä mustajuurisosekeittoa",
+              "title": "Palsternakkasosekeittoa L,G",
               "diets": [
-                "*",
-                "A",
-                "ILM",
-                "L",
-                "VS"
+                "G",
+                "L"
               ]
             },
             {
@@ -1458,20 +1455,20 @@
               ]
             },
             {
+              "title": "Vaniljakastiketta",
+              "diets": [
+                "A",
+                "G",
+                "L"
+              ]
+            },
+            {
               "title": "Ruismurupaistosta ja mustikkaa",
               "diets": [
                 "A",
                 "L",
                 "M",
                 "VE"
-              ]
-            },
-            {
-              "title": "Vaniljakastiketta",
-              "diets": [
-                "A",
-                "G",
-                "L"
               ]
             }
           ]
@@ -1684,33 +1681,40 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": []
-        },
-        "thu": {
-          "day_key": "thu",
-          "day_fi": "Torstai",
-          "day_en": "Thursday",
-          "short_fi": "To",
-          "short_en": "Thu",
           "dishes": [
             {
-              "title": "MIN Chef Poke bowl soija graavatusta kirjolohesta",
+              "title": "MIN Chef Loaded fries pekonilla",
               "price": "14,00 €",
               "diets": [
                 "G",
-                "M"
+                "L"
               ]
             },
             {
-              "title": "MIN Chef Poke bowl kylmäsavutofusta ja herkkusienistä",
+              "title": "MIN Chef Loaded fries tempehillä",
               "price": "14,00 €",
               "diets": [
                 "G",
-                "M"
+                "L"
               ]
             },
             {
-              "title": "MIN Veggie soup Parsakaalisosekeittoa",
+              "title": "MIN Veggie soup Porkkana-savujuustokeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "VL"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Kanttarelli-kasvispihvejä, yrttiohraa ja puolukka creme fraichea",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Cajun paneroitua broileria, bataatti-perunamuusia ja mausteista tomaattimajoneesia",
               "price": "",
               "diets": [
                 "G",
@@ -1718,24 +1722,21 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Madrascurry kikherneestä ja basmatiriisiä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Metsästäjän jauheliha-riistamureketta seinikastikkeessa ja persiljaperunaa",
-              "price": "",
-              "diets": []
-            },
-            {
               "title": "MIN Sweet",
               "price": "",
-              "diets": []
+              "diets": [
+                "G"
+              ]
             }
           ]
+        },
+        "thu": {
+          "day_key": "thu",
+          "day_fi": "Torstai",
+          "day_en": "Thursday",
+          "short_fi": "To",
+          "short_en": "Thu",
+          "dishes": []
         },
         "fri": {
           "day_key": "fri",
