@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-15T15:47:42.203947+03:00",
-    "generated_at_readable": "15.10.2026 15:47",
+    "generated_at": "2026-10-16T11:33:44.998937+03:00",
+    "generated_at_readable": "16.10.2026 11:33",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -521,108 +521,94 @@
           "short_en": "Mon",
           "dishes": [
             {
-              "title": "Pehmeä mustajuurikeitto (L+G)",
+              "title": "Mausteinen syksyn linssikeitto (VE+G+VS)",
               "diets": [
                 "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Uunilohta kermaisessa sitruuna-tilli -kastikkeessa (L+G) keitetyt perunat voisulalla (L+G)",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Meksikolainen jauheliha-papupata tuoreella limellä (M+G+VS) basmatiriisi (VE+G)",
-              "diets": [
-                "G",
-                "M",
                 "VE",
                 "VS"
               ]
             },
             {
-              "title": "Intialainen kanansiipi biryani tuoreella korianterilla (M+G+VS) kurkkuraita (L+G)",
+              "title": "Uunilohta cafe de paris -kastikkeella (L+G+VS) voilla höystetty perunamuusi (L+G)",
               "diets": [
                 "G",
                 "L",
-                "M",
                 "VS"
               ]
             },
             {
-              "title": "Syksyinen kurpitsa-muhennos Härkiksellä ja kaurakermalla (VE+G)",
-              "diets": [
-                "G",
-                "VE"
-              ]
-            },
-            {
-              "title": "Factoryn letut (L) mansikkahillo (VE+G) vaniljavaahto (L+G) jäätelö (L+G)",
+              "title": "Nakki-stroganoff smetanalla ja suolakurkuilla höystettynä (L+G+VS)",
               "diets": [
                 "G",
                 "L",
-                "VE"
+                "VS"
               ]
             },
             {
-              "title": "Gluteenittomat vegaaniset letut (VE+G) (Pyydetään erikseen keittiöstä)",
+              "title": "Fajitalla maustetut kanatortillat cheddarjuustohunnulla (VL+G+VS) jalapeno (VE+G)",
+              "diets": [
+                "G",
+                "VE",
+                "VL",
+                "VS"
+              ]
+            },
+            {
+              "title": "Kukka-parsakaaligratiini soijasuikaleilla vegaanisella vuustolla ja balsamico-siirapilla (VE+G)",
               "diets": [
                 "G",
                 "VE"
               ]
             },
             {
-              "title": "Creamy black salsify soup (L+G)",
+              "title": "Pähkinä-suklaamousse (L+G+sis.pähkinä) gluteeniton granola (VE+G)",
               "diets": [
                 "G",
-                "L"
+                "VE"
               ]
             },
             {
-              "title": "Oven-baked salmon in creamy lemon-dill sauce (L+G) boiled potatoes with melted butter (L+G)",
+              "title": "Spicy autumn lentil soup (VE+G+VS)",
               "diets": [
                 "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Mexican minced meat and bean stew with fresh lime (M+G+VS) basmati rice (VE+G)",
-              "diets": [
-                "G",
-                "M",
                 "VE",
                 "VS"
               ]
             },
             {
-              "title": "Indian chicken wing biryani with fresh coriander (M+G+VS) cucumber raita (L+G)",
+              "title": "Oven-baked salmon with Café de Paris sauce (L+G+VS) buttery mashed potatoes (L+G)",
               "diets": [
                 "G",
                 "L",
-                "M",
                 "VS"
               ]
             },
             {
-              "title": "Autumn pumpkin stew with Härkis and oat cream (VE+G)",
-              "diets": [
-                "G",
-                "VE"
-              ]
-            },
-            {
-              "title": "Factory pancakes (L) strawberry jam (VE+G) vanilla mousse (L+G) ice cream (L+G)",
+              "title": "Sausage Stroganoff with sour cream and pickles (L+G+VS)",
               "diets": [
                 "G",
                 "L",
+                "VS"
+              ]
+            },
+            {
+              "title": "Fajita-seasoned chicken tortillas with cheddar cheese topping (VL+G+VS) jalapeños (VE+G)",
+              "diets": [
+                "G",
+                "VE",
+                "VL",
+                "VS"
+              ]
+            },
+            {
+              "title": "Cauliflower and broccoli gratin with soy strips, vegan cheese and balsamic syrup (VE+G)",
+              "diets": [
+                "G",
                 "VE"
               ]
             },
             {
-              "title": "Gluten-free vegan pancakes (VE+G) (Available from the kitchen upon request)",
+              "title": "Nut and chocolate mousse (L+G+cont. nuts) gluten-free granola (VE+G)",
               "diets": [
                 "G",
                 "VE"
@@ -638,14 +624,7 @@
           "short_en": "Tue",
           "dishes": [
             {
-              "title": "Siskonmakkarakeitto (M+G)",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "Factoryn juustolihapullat kermaisessa metsäsienikastikkeessa (L+G) paahdetut lohkoperunat (VE+G)",
+              "title": "Pehmeä kukkakaalikeitto (L+G) krutongit (VE)",
               "diets": [
                 "G",
                 "L",
@@ -653,7 +632,7 @@
               ]
             },
             {
-              "title": "Kana paistileikettä kermaisessa dijon-rakuunakastikkeessa (L+G) basmatiriisi (VE+G)",
+              "title": "Factoryn chorizo-lihapullat paahdettu paprika -kastikkeella (L+G) kuusenkerkkä-juurekset (VE+G)",
               "diets": [
                 "G",
                 "L",
@@ -661,15 +640,32 @@
               ]
             },
             {
-              "title": "Kesäkurpitsa-lasagne soijarouheella (VE+VS+G)",
+              "title": "Grillattua kanan paistileikettä chimichurri-glaseerauksella (M+VS+G) tzatziki (L+VS+G) riisi (VE+G)",
               "diets": [
                 "G",
+                "L",
+                "M",
                 "VE",
                 "VS"
               ]
             },
             {
-              "title": "Factoryn letut (L) mansikkahillo (VE+G) vaniljavaahto (L+G) jäätelö (L+G)",
+              "title": "Vegaaninen kurpitsarisotto tofulla ja tuoreilla yrteillä (VE+G)",
+              "diets": [
+                "G",
+                "KASVIS",
+                "VE"
+              ]
+            },
+            {
+              "title": "Factoryn jäätelöbaari (L+G)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Creamy cauliflower soup (L+G) croutons (VE)",
               "diets": [
                 "G",
                 "L",
@@ -677,21 +673,7 @@
               ]
             },
             {
-              "title": "Gluteenittomat vegaaniset letut (VE+G) (Pyydetään erikseen keittiöstä)",
-              "diets": [
-                "G",
-                "VE"
-              ]
-            },
-            {
-              "title": "Traditional finnish fresh sausage soup (M+G)",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "Factory cheese meatballs in creamy wild mushroom sauce (L+G) roasted potato wedges (VE+G)",
+              "title": "Factory chorizo meatballs in roasted bell pepper sauce (L+G) root vegetables with spruce shoots (VE+G)",
               "diets": [
                 "G",
                 "L",
@@ -699,34 +681,28 @@
               ]
             },
             {
-              "title": "Chicken thigh in creamy Dijon-tarragon sauce (L+G) basmati rice (VE+G)",
+              "title": "Grilled chicken thigh with chimichurri glaze (M+VS+G) tzatziki (L+VS+G) rice (VE+G)",
               "diets": [
                 "G",
                 "L",
-                "VE"
-              ]
-            },
-            {
-              "title": "Zucchini lasagna with soy crumble (VE+VS+G)",
-              "diets": [
-                "G",
+                "M",
                 "VE",
                 "VS"
               ]
             },
             {
-              "title": "Factory pancakes (L) strawberry jam (VE+G) vanilla mousse (L+G) ice cream (L+G)",
+              "title": "Vegan pumpkin risotto with tofu and fresh herbs (VE+G)",
               "diets": [
                 "G",
-                "L",
+                "KASVIS",
                 "VE"
               ]
             },
             {
-              "title": "Gluten-free vegan pancakes (VE+G) (Available from the kitchen upon request)",
+              "title": "Factory delicious ice cream bar (L+G)",
               "diets": [
                 "G",
-                "VE"
+                "L"
               ]
             }
           ]
@@ -739,7 +715,15 @@
           "short_en": "Wed",
           "dishes": [
             {
-              "title": "Porkkana-palsternakka sosekeitto (L+G) krutongit (VE)",
+              "title": "Kermainen rapukeitto (L+G+VS)",
+              "diets": [
+                "G",
+                "L",
+                "VS"
+              ]
+            },
+            {
+              "title": "Rapeaksi paistetut paneroidut kanan sisäfileet (L) mango-currydippi (VE+G) paahdetut lohkoperunat (VE+G)",
               "diets": [
                 "G",
                 "L",
@@ -747,7 +731,7 @@
               ]
             },
             {
-              "title": "Porsaan pulled pork Chipotle-BBQ -kastikkeessa (M+G+VS) rapeat ranskalaiset (VE+G)",
+              "title": "Hitaasti kypsennettyä porsaankylkeä japanilaisella teriyaki-kastikkeella (M+G+VS) basmatiriisi (VE+G)",
               "diets": [
                 "G",
                 "M",
@@ -756,23 +740,38 @@
               ]
             },
             {
-              "title": "Fish & Chips – Rapeaa paneroitua kampela (M) rapeat ranskalaiset (VE+G) tartar-dippi (M+G)",
+              "title": "seesami-chili -kurkut (VE+G)",
               "diets": [
                 "G",
-                "M",
                 "VE"
               ]
             },
             {
-              "title": "Täytetyt paprikat kikherneillä ja vegaanisella vuustolla (VE+G+VS) yrtti-majoneesi (VE+G)",
+              "title": "Intialainen kasvis-nyhtökaura -curry tuoreella korianterilla (VE+G+VS) basmatiriisi (VE+G)",
               "diets": [
                 "G",
+                "KASVIS",
                 "VE",
                 "VS"
               ]
             },
             {
-              "title": "Factoryn letut (L) mansikkahillo (VE+G) vaniljavaahto (L+G) jäätelö (L+G)",
+              "title": "Omena-kaura-puolukkapaistos (L) vaniljakastike (L+G)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Creamy shrimp soup (L+G+VS)",
+              "diets": [
+                "G",
+                "L",
+                "VS"
+              ]
+            },
+            {
+              "title": "Crispy breaded chicken tenderloins (L) mango-curry dip (VE+G) roasted potato wedges (VE+G)",
               "diets": [
                 "G",
                 "L",
@@ -780,22 +779,7 @@
               ]
             },
             {
-              "title": "Gluteenittomat vegaaniset letut (VE+G) (Pyydetään erikseen keittiöstä)",
-              "diets": [
-                "G",
-                "VE"
-              ]
-            },
-            {
-              "title": "Carrot and parsnip purée soup (L+G) croutons (VE)",
-              "diets": [
-                "G",
-                "L",
-                "VE"
-              ]
-            },
-            {
-              "title": "Pulled pork in Chipotle-BBQ sauce (M+G+VS) crispy French fries (VE+G)",
+              "title": "Slow-cooked pork belly with Japanese teriyaki sauce (M+G+VS) basmati rice (VE+G) sesame-chili cucumbers (VE+G)",
               "diets": [
                 "G",
                 "M",
@@ -804,15 +788,7 @@
               ]
             },
             {
-              "title": "Fish & Chips – crispy breaded flounder (M) crispy French fries (VE+G) tartar dip (M+G)",
-              "diets": [
-                "G",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Bell peppers stuffed with chickpeas and vegan cheese (VE+G+VS) herb mayonnaise (VE+G)",
+              "title": "Indian vegetable and pulled oat curry with fresh coriander (VE+G+VS) basmati rice (VE+G)",
               "diets": [
                 "G",
                 "VE",
@@ -820,18 +796,10 @@
               ]
             },
             {
-              "title": "Factory pancakes (L) strawberry jam (VE+G) vanilla mousse (L+G) ice cream (L+G)",
+              "title": "Apple, oat and lingonberry crumble (L) vanilla sauce (L+G)",
               "diets": [
                 "G",
-                "L",
-                "VE"
-              ]
-            },
-            {
-              "title": "Gluten-free vegan pancakes (VE+G) (Available from the kitchen upon request)",
-              "diets": [
-                "G",
-                "VE"
+                "L"
               ]
             }
           ]
@@ -852,25 +820,31 @@
               ]
             },
             {
-              "title": "Paistettua kanan rintafilettä Toscanan kastikkeessa aurinkokuivatuilla tomaateilla (VL+G+VS) basmatiriisi (VE+G)",
+              "title": "Factoryn pannupihvit katajanmarja-kermakastikkeessa (L+G) keitetyt perunat voisulalla (L+G)",
               "diets": [
                 "G",
-                "VE",
-                "VL",
-                "VS"
+                "L"
               ]
             },
             {
-              "title": "Punaviinillä ja mustaherukoilla haudutettua nautaa herkkusienillä (M+G+VS) rosmariiniperunat (VE+G)",
+              "title": "Rapeaksi paistettua tempura-paneroitua seiti (M) tilli-kermaviili (L+G)",
               "diets": [
                 "G",
+                "L",
+                "M"
+              ]
+            },
+            {
+              "title": "Intialainen kana-biryani grillatuilla kasviksilla (M+G+VS) raitakastike (L+G)",
+              "diets": [
+                "G",
+                "L",
                 "M",
-                "VE",
                 "VS"
               ]
             },
             {
-              "title": "Chili sin carne (VE+VS+G) guacamole (VE+G) nachot (VE+G)",
+              "title": "Tomaattinen kaalivuoka Härkiksellä ja tuoreella basilikalla (VE+G+VS) riisi (VE+G)",
               "diets": [
                 "G",
                 "VE",
@@ -901,25 +875,31 @@
               ]
             },
             {
-              "title": "Fried chicken breast in Tuscan-style sauce with sun-dried tomatoes (VL+G+VS) basmati rice (VE+G)",
+              "title": "Factory pan-fried patties in creamy juniper berry sauce (L+G) boiled potatoes with melted butter (L+G)",
               "diets": [
                 "G",
-                "VE",
-                "VL",
-                "VS"
+                "L"
               ]
             },
             {
-              "title": "Beef slow-cooked in red wine with blackcurrants and mushrooms (M+G+VS) rosemary potatoes (VE+G)",
+              "title": "Crispy tempura-battered pollock (M) dill sour cream (L+G)",
               "diets": [
                 "G",
+                "L",
+                "M"
+              ]
+            },
+            {
+              "title": "Indian chicken biryani with grilled vegetables (M+G+VS) raita sauce (L+G)",
+              "diets": [
+                "G",
+                "L",
                 "M",
-                "VE",
                 "VS"
               ]
             },
             {
-              "title": "Chili sin carne (VE+VS+G) guacamole (VE+G) nachos (VE+G)",
+              "title": "Tomato-based cabbage casserole with Härkis and fresh basil (VE+G+VS) rice (VE+G)",
               "diets": [
                 "G",
                 "VE",
@@ -1049,6 +1029,92 @@
             {
               "title": "Our staff are happy to help with any questions regarding allergens or ingredients.",
               "diets": []
+            },
+            {
+              "title": "Kermainen lohikeitto (L+G)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Mehevää kanan rintafilettä bearnaise-kastikkeella (VL+G) basmatiriisi (VE+G)",
+              "diets": [
+                "G",
+                "VE",
+                "VL"
+              ]
+            },
+            {
+              "title": "Rapea paneroitu porsaanleike (L) paprika-majoneesi (M+G) ranskalaiset (VE+G)",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Ranskalainen kasvis-Härkis-pata punaviinissä haudutettuna (VE+GVS)",
+              "diets": [
+                "KASVIS",
+                "VE"
+              ]
+            },
+            {
+              "title": "Mojito-hedelmäsalaatti (VE+G) minttuvaahto (L+G)",
+              "diets": [
+                "G",
+                "L",
+                "VE"
+              ]
+            },
+            {
+              "title": "Creamy salmon soup (L+G)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Juicy chicken breast with béarnaise sauce (VL+G) basmati rice (VE+G)",
+              "diets": [
+                "G",
+                "VE",
+                "VL"
+              ]
+            },
+            {
+              "title": "Crispy breaded pork cutlet (L) bell pepper mayonnaise (M+G) French fries (VE+G)",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "French-style vegetable and Härkis stew slow-cooked in red wine (VE+GVS)",
+              "diets": [
+                "VE"
+              ]
+            },
+            {
+              "title": "Mojito fruit salad (VE+G) mint mousse (L+G)",
+              "diets": [
+                "G",
+                "L",
+                "VE"
+              ]
+            },
+            {
+              "title": "lLaktoositonvlVähälaktoosinengGluteenitonveVegaaninenmMaidotonvsSis. valkosipulia",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
             },
             {
               "title": "Tilaa lounaslistaSähköpostiosoite*Olen kiinnostunutCatering-palveluistaSopimuslounaistaPlease leave this field empty.Δ",
@@ -1481,10 +1547,8 @@
           "short_en": "Fri",
           "dishes": [
             {
-              "title": "Bataattikeittoa",
+              "title": "Kurpitsasosekeittoa L,G",
               "diets": [
-                "*",
-                "A",
                 "G",
                 "L"
               ]
@@ -1493,17 +1557,6 @@
               "title": "Vegeburgeri ja vegaanista \"ricottaa\"",
               "diets": [
                 "A",
-                "ILM",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Paahdettuja lohkoperunoita",
-              "diets": [
-                "*",
-                "G",
                 "ILM",
                 "L",
                 "M",
@@ -1529,7 +1582,8 @@
               "title": "Metsästäjänleike keittiön tapaan",
               "diets": [
                 "A",
-                "L"
+                "L",
+                "VS"
               ]
             },
             {
@@ -1736,7 +1790,53 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Poke bowl soija graavatusta kirjolohesta",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Chef Poke bowl kylmäsavutofusta ja herkkusienistä",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Parsakaalisosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Madrascurry kikherneestä ja basmatiriisiä",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Metsästäjän jauheliha-riistamureketta sienikastikkeessa ja persiljaperunaa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": []
+            }
+          ]
         },
         "fri": {
           "day_key": "fri",
@@ -1744,52 +1844,7 @@
           "day_en": "Friday",
           "short_fi": "Pe",
           "short_en": "Fri",
-          "dishes": [
-            {
-              "title": "MIN Chef Bacon burger ja maalaisranskalaisia",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Burger kasvispihvillä ja maalaisranskalaisia",
-              "price": "14,00 €",
-              "diets": [
-                "KASVIS"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Tomaatti-chili-korianterikeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Juustolla kuorrutettu kasvis-enchiladas, riisiä, avocadocremeä, jalapenoja ja nacho sipsejä",
-              "price": "14,00 €",
-              "diets": [
-                "KASVIS"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Rapeaa broilerinpaistileikettä, chili muhennettuja perunoita ja ranch-kastiketta",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": [
-                "L"
-              ]
-            }
-          ]
+          "dishes": []
         }
       }
     },
