@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-16T15:39:39.380419+03:00",
-    "generated_at_readable": "16.10.2026 15:39",
+    "generated_at": "2026-10-19T12:22:22.557373+03:00",
+    "generated_at_readable": "19.10.2026 12:22",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -329,7 +329,7 @@
               "diets": []
             },
             {
-              "title": "Teriyaki-possuwokkia G, M, SO, VS, (KO)",
+              "title": "Teriyaki-possuwokkia G, M, SO, VS, (KO)Keittiöstä ilman possua*",
               "diets": []
             },
             {
@@ -1054,15 +1054,17 @@
           "short_en": "Mon",
           "dishes": [
             {
-              "title": "Sienestäjän sienikeittoa vs",
+              "title": "Juustoista kasvissosekeittoa",
               "diets": [
+                "*",
                 "A",
+                "G",
                 "ILM",
                 "L"
               ]
             },
             {
-              "title": "Paistettua tofua ja sitruuna-aiolia",
+              "title": "Vuustokasvispyöryköitä - Mö chavre",
               "diets": [
                 "A",
                 "ILM",
@@ -1073,76 +1075,74 @@
               ]
             },
             {
-              "title": "Riisiä ja kotimaista kauraa",
+              "title": "Myskikurpitsaohrattoa",
               "diets": [
-                "*",
+                "A",
+                "ILM",
+                "L",
+                "M",
+                "VE",
+                "VS"
+              ]
+            },
+            {
+              "title": "Ruohosipuli-tilli-soijagurttikastiketta",
+              "diets": [
                 "A",
                 "G",
+                "ILM",
                 "L",
                 "M",
                 "VE"
               ]
             },
             {
-              "title": "Sitruuna-aiolia",
+              "title": "Rapeaa kanaa - Crispy chicken",
               "diets": [
-                "A",
                 "G",
-                "ILM",
                 "L",
-                "M",
-                "VE",
-                "VS"
+                "M"
               ]
             },
             {
-              "title": "Perinteisiä silakkapihvejä",
+              "title": "Tomaattimajoneesia",
               "diets": [
                 "A",
+                "G",
                 "ILM",
                 "L",
                 "M"
               ]
             },
             {
-              "title": "Keitettyjä perunoita",
+              "title": "Murskattua perunaa, juustoa ja yrttejä",
               "diets": [
-                "*",
                 "A",
-                "G",
-                "ILM",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Tillijogurtti L,G",
-              "diets": [
                 "G",
                 "L"
               ]
             },
             {
-              "title": "Broileria tomaattikastikkeessa sis pähkinääurg Makhani",
+              "title": "Karjalanpaistia",
               "diets": [
+                "*",
+                "G",
+                "L",
+                "M"
+              ]
+            },
+            {
+              "title": "Perunamuusia",
+              "diets": [
+                "*",
                 "A",
                 "G",
-                "L",
-                "VS"
+                "ILM",
+                "L"
               ]
             },
             {
-              "title": "Satokauden kasviksia",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Mangorahkaa kerroksittain",
+              "title": "Omena-kanelirahkaa",
               "diets": [
                 "A",
                 "G",
@@ -1159,7 +1159,7 @@
           "short_en": "Tue",
           "dishes": [
             {
-              "title": "Punajuurisosekeittoa",
+              "title": "Parsakaalisosekeittoa",
               "diets": [
                 "*",
                 "A",
@@ -1169,86 +1169,47 @@
               ]
             },
             {
-              "title": "Meidän keittiön porkkana-lehtikaalipihvejä",
-              "diets": [
-                "A",
-                "ILM",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Salsa verde",
+              "title": "Paahdettua tofua ja riisiä Pad Kra Pao",
               "diets": [
                 "A",
                 "G",
                 "L",
-                "M",
-                "VE",
+                "M"
+              ]
+            },
+            {
+              "title": "Katkarapuja, rigatonipastaa ja tilliä",
+              "diets": [
+                "A",
+                "L",
                 "VS"
               ]
             },
             {
-              "title": "Paahdettuja yrttiperunoita",
+              "title": "Pastajuustoa",
+              "diets": [
+                "A",
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Lihapullia BBQ ja cheddarkastikkeessa",
+              "diets": [
+                "A",
+                "L"
+              ]
+            },
+            {
+              "title": "Savupaprikalla paahdettuja perunoita",
               "diets": [
                 "*",
                 "G",
                 "ILM",
                 "L",
                 "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Juustokuorrutettua uunimakkaraa",
-              "diets": [
-                "A",
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Sinappirelishiä",
-              "diets": [
-                "A",
-                "G",
-                "ILM",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Perunamuusia",
-              "diets": [
-                "A",
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Paneroitua kampelafileetä feta-pinaattitäytteellä",
-              "diets": [
-                "A",
-                "G"
-              ]
-            },
-            {
-              "title": "Ruskeavoi-hollandaisekastiketta",
-              "diets": [
-                "A",
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Paahdettua bataattia",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
+                "VE",
+                "VS"
               ]
             },
             {
@@ -1261,15 +1222,11 @@
               ]
             },
             {
-              "title": "Omenapiirakkaa",
-              "diets": []
-            },
-            {
-              "title": "Vaniljakastiketta",
+              "title": "Munkki",
               "diets": [
                 "A",
-                "G",
-                "L"
+                "L",
+                "M"
               ]
             }
           ]
@@ -1282,130 +1239,74 @@
           "short_en": "Wed",
           "dishes": [
             {
-              "title": "Linssi-kookoskeittoa",
-              "diets": [
-                "G",
-                "ILM",
-                "L",
-                "M",
-                "VE",
-                "VS"
-              ]
-            },
-            {
-              "title": "Tattilasagnea",
-              "diets": [
-                "A",
-                "L",
-                "VS"
-              ]
-            },
-            {
-              "title": "Grillattua sitruunabroileria",
-              "diets": [
-                "A",
-                "G",
-                "L",
-                "M"
-              ]
-            },
-            {
-              "title": "Basmatiriisiä",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Persiljamajoneesia",
-              "diets": [
-                "A",
-                "G",
-                "L",
-                "M"
-              ]
-            },
-            {
-              "title": "Meidän keittiön savujuusto-pekonilihamureketta",
-              "diets": [
-                "A",
-                "L"
-              ]
-            },
-            {
-              "title": "Sipulikastiketta",
-              "diets": [
-                "A",
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Satokauden kasviksia",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Keitettyjä perunoita",
+              "title": "Yrttistä porkkanasosekeittoa",
               "diets": [
                 "*",
                 "A",
                 "G",
                 "ILM",
+                "L"
+              ]
+            },
+            {
+              "title": "Punajuuri-sinihomejuustokiusausta",
+              "diets": [
+                "A",
+                "G",
+                "ILM",
+                "L"
+              ]
+            },
+            {
+              "title": "Vegaanista juustoraastetta",
+              "diets": [
+                "G",
                 "L",
                 "M",
                 "VE"
               ]
             },
             {
-              "title": "Kaneli-maitosuklaapulla",
-              "diets": [
-                "A"
-              ]
-            }
-          ]
-        },
-        "thu": {
-          "day_key": "thu",
-          "day_fi": "Torstai",
-          "day_en": "Thursday",
-          "short_fi": "To",
-          "short_en": "Thu",
-          "dishes": [
-            {
-              "title": "Palsternakkasosekeittoa L,G",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Meidän keittiön feta-porkkanaohukaisia",
-              "diets": [
-                "A",
-                "ILM",
-                "L"
-              ]
-            },
-            {
-              "title": "Meidän keittiön lasagnea",
+              "title": "Makean tulista broileria - Korean Chicken",
               "diets": [
                 "A",
                 "L",
+                "M",
                 "VS"
               ]
             },
             {
-              "title": "Puna-ahventa ja piparjuurihollandaisea",
+              "title": "Riisiä ja kotimaista kauraa",
+              "diets": [
+                "*",
+                "A",
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Sitruunajogurttikastiketta",
               "diets": [
                 "A",
                 "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Lohimureketta",
+              "diets": [
+                "A",
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Kananmuna-tillikastiketta",
+              "diets": [
+                "*",
+                "A",
                 "L"
               ]
             },
@@ -1427,7 +1328,52 @@
               ]
             },
             {
-              "title": "Vaniljakastiketta",
+              "title": "Toscapiirakkaa",
+              "diets": [
+                "A",
+                "L"
+              ]
+            }
+          ]
+        },
+        "thu": {
+          "day_key": "thu",
+          "day_fi": "Torstai",
+          "day_en": "Thursday",
+          "short_fi": "To",
+          "short_en": "Thu",
+          "dishes": [
+            {
+              "title": "Palsternakkasosekeittoa",
+              "diets": [
+                "*",
+                "A",
+                "G",
+                "ILM",
+                "L"
+              ]
+            },
+            {
+              "title": "Meidän keittiön pinaattiohukaisia",
+              "diets": [
+                "*",
+                "A",
+                "ILM",
+                "L"
+              ]
+            },
+            {
+              "title": "Puolukkaa",
+              "diets": [
+                "A",
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Mantelipaahdettua kalaa",
               "diets": [
                 "A",
                 "G",
@@ -1435,12 +1381,56 @@
               ]
             },
             {
-              "title": "Ruismurupaistosta ja mustikkaa",
+              "title": "Paahdettua perunaa",
               "diets": [
-                "A",
+                "*",
+                "G",
+                "ILM",
                 "L",
                 "M",
                 "VE"
+              ]
+            },
+            {
+              "title": "Satokauden kasviksia",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Broileria Jamaican tapaan - Jerk Chicken",
+              "diets": [
+                "A",
+                "G",
+                "L",
+                "VS"
+              ]
+            },
+            {
+              "title": "Chili-mangochutneyta",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Meidän keittiön pannukakkua",
+              "diets": [
+                "A",
+                "L"
+              ]
+            },
+            {
+              "title": "Vaniljakermavaahtoa",
+              "diets": [
+                "A",
+                "G",
+                "L"
               ]
             }
           ]
@@ -1453,39 +1443,39 @@
           "short_en": "Fri",
           "dishes": [
             {
-              "title": "Kurpitsasosekeittoa L,G",
+              "title": "Kermaista kirjolohikeittoa",
               "diets": [
+                "A",
+                "G",
+                "ILM",
+                "L"
+              ]
+            },
+            {
+              "title": "Meidän keittiön blinejä",
+              "diets": [
+                "A",
+                "L"
+              ]
+            },
+            {
+              "title": "Savuporomoussea",
+              "diets": [
+                "A",
                 "G",
                 "L"
               ]
             },
             {
-              "title": "Vegeburgeri ja vegaanista \"ricottaa\"",
+              "title": "Metsäsienisalaattia",
               "diets": [
                 "A",
-                "ILM",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Briossi BRG Beef",
-              "diets": [
-                "A",
-                "L",
-                "M"
-              ]
-            },
-            {
-              "title": "Paahdettua perunaa, chilimajoneesia ja korianteria",
-              "diets": [
-                "A",
+                "G",
                 "L"
               ]
             },
             {
-              "title": "Metsästäjänleike keittiön tapaan",
+              "title": "Kylmäsavulohta, rigatonipastaa ja tilliä",
               "diets": [
                 "A",
                 "L",
@@ -1493,13 +1483,8 @@
               ]
             },
             {
-              "title": "Satokauden kasviksia",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
-              ]
+              "title": "Broiler-aurajuustopastaa",
+              "diets": []
             },
             {
               "title": "Food & Co Jäätelöbuffet",
@@ -1535,90 +1520,7 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": [
-            {
-              "title": "MIN Chef Chicken tacoja mexican salsaa, ranskankermaa ja Sweet & sour punasipulia",
-              "price": "14,00 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Sieni-viikunarisottoa, paahdettua myskikurpitsaa ja saksanpähkinää",
-              "price": "14,00 €",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Juuressosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Mausteista linssipataa, riisiä ja korianteri-soijajogurttikastiketta",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Bolognesea, spaghettia ja parmesanlastuja",
-              "price": "",
-              "diets": [
-                "VL"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Naudan lehtipihvi,paahdettua valkosipuli-punaviinikastiketta, mausteisia lohkoperunoita ja wokattuja kasviksia",
-              "price": "17,05 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Seafood bowl, äyriäsiä ja kalaa, nuudeleita ja wokkivihanneksia",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Palsternakkasosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Thai red curry tofusta ja jasmineriisiä",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Lihapullia arrabbiatakastikeessa ja paahdettuja ricottaperunoita",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            }
-          ]
+          "dishes": []
         },
         "tue": {
           "day_key": "tue",
@@ -1627,49 +1529,6 @@
           "short_fi": "Ti",
           "short_en": "Tue",
           "dishes": [
-            {
-              "title": "MIN Chef Bibimbap naudan jauhelihasta",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Soija bibimbab gochujang-kastikkeella",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Herkkusienikeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Seitan kebab, valkosipulikastiketta, basmatiriisiä ja pitaleipää",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Paneroitua Alaskan seitiä ja tilli- voiperunoita ja piparjuuri- majoneesia",
-              "price": "",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            },
             {
               "title": "MIN Chef Pepperoni Pinsa",
               "price": "14,00 €",
@@ -1703,6 +1562,14 @@
               "diets": [
                 "G"
               ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
             }
           ]
         },
@@ -1713,52 +1580,6 @@
           "short_fi": "Ke",
           "short_en": "Wed",
           "dishes": [
-            {
-              "title": "MIN Chef Loaded fries pekonilla",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Loaded fries tempehillä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Porkkana-savujuustokeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "VL"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Kanttarelli-kasvispihvejä, yrttiohraa ja puolukka creme fraichea",
-              "price": "14,00 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Cajun paneroitua broileria, bataatti-perunamuusia ja mausteista tomaattimajoneesia",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            },
             {
               "title": "MIN Chef Shanghai taco broilerilla",
               "price": "14,00 €",
@@ -1795,6 +1616,13 @@
               "diets": [
                 "L"
               ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G"
+              ]
             }
           ]
         },
@@ -1806,53 +1634,8 @@
           "short_en": "Thu",
           "dishes": [
             {
-              "title": "MIN Chef Poke bowl soija graavatusta kirjolohesta",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Poke bowl kylmäsavutofusta ja herkkusienistä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Parsakaalisosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Madrascurry kikherneestä ja basmatiriisiä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Metsästäjän jauheliha-riistamureketta sienikastikkeessa ja persiljaperunaa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": []
-            },
-            {
               "title": "MIN Chef Teriyaki-paahdettu lohi ja Wokattuja kasviksia",
-              "price": "14,00 €",
+              "price": "15,50 €",
               "diets": [
                 "M"
               ]
@@ -1887,6 +1670,11 @@
                 "G",
                 "L"
               ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": []
             }
           ]
         },
@@ -1967,35 +1755,68 @@
           "short_en": "Mon",
           "dishes": [
             {
-              "title": "Häränhäntäkeitto (g,m)",
+              "title": "Metsäsienikeitto (l)",
               "diets": [
-                "G",
-                "M"
+                "L"
               ]
             },
             {
-              "title": "Munakoiso-kasvistortellini alla Norma (l)",
+              "title": "Tuorejuustotäytteiset kasvispihvit ja rucolaa sekä marinoitua makeasipulia (g,l)",
               "diets": [
+                "G",
                 "KASVIS",
                 "L"
               ]
             },
             {
-              "title": "Pistou-kuorrutettua kirjolohta (g,m)",
+              "title": "Uunissa paahdettua kirjolohta valkoviini-kermakastikkeessa (g,l)",
               "diets": [
                 "G",
-                "M"
+                "L"
               ]
             },
             {
-              "title": "Jumbo lihapullat nduja-kastikkeessa (g,m) (nautaa ja porsasta)",
+              "title": "Mummon lihapullat, tumma pippurikastike (l)",
               "diets": [
-                "G",
-                "M"
+                "L"
               ]
             },
             {
-              "title": "Rapeat valkosipuliperunat (g,m,v) / Riisiä (g,m,v)",
+              "title": "Perunaa (g,m,v) / Riisiä (g,m,v)",
+              "diets": [
+                "G",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Forest mushroom soup (l)",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "Cream cheese-filled vegetable patties with rucola and marinated sweet onion (g,l)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Baked rainbow trout in creamy white wine sauce (g,l)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Grandma’s meatballs, dark pepper sauce (l)",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "Potatoes (g,m,v) / Rice (g,m,v)",
               "diets": [
                 "G",
                 "M",
@@ -2012,36 +1833,75 @@
           "short_en": "Tue",
           "dishes": [
             {
-              "title": "Kasvis-borssikeitto (g,m,v) ja smetanaa (g,l)",
+              "title": "Maa-artisokkakeitto (g,l)",
               "diets": [
                 "G",
-                "KASVIS",
-                "L",
+                "L"
+              ]
+            },
+            {
+              "title": "Keltainen herne-punajuuri-pyörykät, hunajasinappi-unikonsiemenkastiketta (g,m)",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "Paahdettua kanaa, salviaa ja myskikurpitsaa (g,m)",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "Naudan schnitzel, lehtikaali-valkosipuli-pinaatti- maustevoi (l)",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "Perunaa (g,m,v) / Yrttiriisiä (g,m,v)",
+              "diets": [
+                "G",
                 "M",
                 "VE"
               ]
             },
             {
-              "title": "Hernejauhis-kaalitäytteinen ohukainen, smetanaa (l)",
+              "title": "Artichoke soup (g,l)",
               "diets": [
+                "G",
                 "L"
               ]
             },
             {
-              "title": "Kievin kanaa valkosipuli-persiljavoi (-)",
+              "title": "Beetroot-yellow pea protein vegetable balls with",
               "diets": []
             },
             {
-              "title": "Sipulitäytteinen pannupihvi (l) (naudanliha, liivate sis porsas)",
+              "title": "honey mustard poppy seed sauce (g,m)",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "Roasted chicken with sage and butternut squash (g,m)",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "Beef schnitzel with garlic and spinach compound butter (l)",
               "diets": [
                 "L"
               ]
             },
             {
-              "title": "Voiperunaa (g,l) / Riisi (g,m,v)",
+              "title": "Potatoes (g,m,v) / Herb rice (g,m,v)",
               "diets": [
                 "G",
-                "L",
                 "M",
                 "VE"
               ]
@@ -2056,34 +1916,68 @@
           "short_en": "Wed",
           "dishes": [
             {
-              "title": "Koskenlaskija-juusto-perunakeitto (g,l)",
+              "title": "Cheddarjuusto-perunakeitto (g,l)",
               "diets": [
                 "G",
                 "L"
               ]
             },
             {
-              "title": "Paahdettua “sweet heat” kukkakaalia ja tofua (g,m,v,sis. soija, hunaja)",
+              "title": "Maissifritterit ja savutomaattikastike (g,l)",
               "diets": [
-                "KASVIS"
+                "G",
+                "L"
               ]
             },
             {
-              "title": "Cajun kanaa (g,m)",
+              "title": "Southern fried chicken (l) (sis. sinappi)",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "Hitaasti paahdettua St. Louis BBQ -porsasta (g,m) (sis. sinappi)",
               "diets": [
                 "G",
                 "M"
               ]
             },
             {
-              "title": "Carolina Golden Mustard BBQ -nyhtöporsasta (g,m,sis. sinappi)",
+              "title": "Lohkoperunat (g,m,v) / ”Dirty rice” (g,m,v, sis selleri)",
+              "diets": [
+                "G",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Cheddar cheese and potato soup (g,l)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Corn fritters and smoked tomato sauce (g,l)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Southern fried chicken (l) (inc. mustard) (Finland)",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "Slow-roasted St. Louis BBQ pork (g,m, inc. mustard)",
               "diets": []
             },
             {
-              "title": "Mac'n'cheese (l) / Lohkoperunaa (g,m,v)",
+              "title": "Potato wedges (g,m,v) / “Dirty rice” (g,m,v, inc. celery)",
               "diets": [
                 "G",
-                "L",
                 "M",
                 "VE"
               ]
@@ -2113,7 +2007,54 @@
               ]
             },
             {
-              "title": "Mausteinen hunaja-valkosipuli nyhtö-‘härkis’ (g,m,v, sis soija)",
+              "title": "Beanit-kasviskaalikääryleet, sinappikastike ja puolukkaa (g,m,v)",
+              "diets": [
+                "G",
+                "KASVIS",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Nieriää ja tillivoi (g,l)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Karjalanpaisti (g,m) (nauta, porsas Suomi)",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "Perunamuusi (l) / Riisiä (g,m,v)",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Pea soup (g,m) and vegetarian pea soup (g,m,v)",
+              "diets": [
+                "G",
+                "KASVIS",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Pancakes with jam and whipped cream (l)",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "Beanit vegetable cabbage rolls with mustard sauce, lingonberries (g,m,v)",
               "diets": [
                 "G",
                 "M",
@@ -2121,19 +2062,21 @@
               ]
             },
             {
-              "title": "Ahvenpihvit ja tillivoi (l)",
+              "title": "Arctic char with dill butter (g,l)",
               "diets": [
+                "G",
                 "L"
               ]
             },
             {
-              "title": "Lihamureke Bostonilaisittain (m, sis sinappi)",
+              "title": "Finnish Karelian stew (g,m) (beef and pork Finland)",
               "diets": [
+                "G",
                 "M"
               ]
             },
             {
-              "title": "Perunamuusia (g,l) / Riisiä (g,m,v)",
+              "title": "Mashed potatoes (g,l) / Rice (g,m,v)",
               "diets": [
                 "G",
                 "L",
@@ -2151,34 +2094,33 @@
           "short_en": "Fri",
           "dishes": [
             {
-              "title": "Paahdettu poblano-chili -kasviskeitto (g,l)",
+              "title": "Sahrami-porkkanakeitto (g,l)",
               "diets": [
                 "G",
-                "KASVIS",
                 "L"
               ]
             },
             {
-              "title": "Mustapapu-chili sin carne (g,m,v, sis. herneproteiini-härkäpapu)",
-              "diets": []
-            },
-            {
-              "title": "Tinga-kanaa (g,m, sis soija) ja Ranch-kanaa (g,l)",
+              "title": "Falafel-pyörykät (g,m,v), tsatsiki (g,l)",
               "diets": [
                 "G",
                 "L",
-                "M"
+                "M",
+                "VE"
               ]
             },
             {
-              "title": "Birria-nautaa (g,m)",
+              "title": "Välimeren curry-kalaa (l)",
               "diets": [
-                "G",
-                "M"
+                "L"
               ]
             },
             {
-              "title": "Paprikariisiä (g,m,v)",
+              "title": "Naudan kebablastut baharat-tomaattikastikkeessa (g,m, sis. selleri)",
+              "diets": []
+            },
+            {
+              "title": "Mausteriisiä (g,m,v) / Perunaa (g,m,v)",
               "diets": [
                 "G",
                 "M",
@@ -2186,15 +2128,72 @@
               ]
             },
             {
-              "title": "+Vehnätortillat (gluteenittomat maissitortillat pyydettäessä)",
+              "title": "Lisätietoa elintarvikkeista ja niiden mahdollisista allergeeneista saa ravintolan henkilökunnalta, kiitos!",
               "diets": []
             },
             {
-              "title": "Fajitalisukkeet: jalapeño-cheddarjuustokastike (l), salsa verde (g,m,v), salsa roja (g,m,v), salsa macha (g,m,v, sis.seesami, kurpitsansiemen), avokadokermaviili (g,l), marinoitu punasipuli, pikkelöity jalopeňo, limelohkot, Texas Pete –majoneesi (g,m), tuore korianteri jne jne",
+              "title": "Saffron and carrot soup (g,l)",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Falafel balls (g,m,v), tzatziki (g,l)",
               "diets": [
                 "G",
                 "L",
                 "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "Mediterranian fish curry (l)",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "Beef kebab in baharat tomato sauce (g,m, inc. celery)",
+              "diets": []
+            },
+            {
+              "title": "Seasoned rice (g,m,v) / Potatoes (g,m,v)",
+              "diets": [
+                "G",
+                "M",
+                "VE"
+              ]
+            },
+            {
+              "title": "More information about ingredients and possible allergens is available from the restaurant staff, thank you!",
+              "diets": []
+            },
+            {
+              "title": "G = gluteeniton / gluten free",
+              "diets": [
+                "G"
+              ]
+            },
+            {
+              "title": "L = laktoositon / lactose free",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "VL = vähälaktoosinen / low lactose",
+              "diets": []
+            },
+            {
+              "title": "M = maidoton / dairy free",
+              "diets": [
+                "M"
+              ]
+            },
+            {
+              "title": "V = vegaaninen / vegan",
+              "diets": [
                 "VE"
               ]
             }
