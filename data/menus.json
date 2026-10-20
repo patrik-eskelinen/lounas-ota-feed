@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-19T17:54:00.296338+03:00",
-    "generated_at_readable": "19.10.2026 17:54",
+    "generated_at": "2026-10-20T11:57:27.102787+03:00",
+    "generated_at_readable": "20.10.2026 11:57",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1159,12 +1159,9 @@
           "short_en": "Tue",
           "dishes": [
             {
-              "title": "Parsakaalisosekeittoa",
+              "title": "Porkkanasosekeittoa L,G",
               "diets": [
-                "*",
-                "A",
                 "G",
-                "ILM",
                 "L"
               ]
             },
@@ -1222,12 +1219,8 @@
               ]
             },
             {
-              "title": "Munkki",
-              "diets": [
-                "A",
-                "L",
-                "M"
-              ]
+              "title": "Toscapiirakka",
+              "diets": []
             }
           ]
         },
@@ -1520,29 +1513,25 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": []
-        },
-        "tue": {
-          "day_key": "tue",
-          "day_fi": "Tiistai",
-          "day_en": "Tuesday",
-          "short_fi": "Ti",
-          "short_en": "Tue",
           "dishes": [
             {
-              "title": "MIN Chef Pepperoni Pinsa",
-              "price": "14,00 €",
+              "title": "MIN Chef Naudan lehtipihvi,paahdettua valkosipuli-punaviinikastiketta, mausteisia lohkoperunoita ja wokattuja kasviksia",
+              "price": "17,05 €",
               "diets": [
-                "L"
+                "G",
+                "M"
               ]
             },
             {
-              "title": "MIN Chef Tomaatti ja mozzarella Pinsa",
+              "title": "MIN Chef Seafood bowl, äyriäsiä ja kalaa, nuudeleita ja wokkivihanneksia",
               "price": "14,00 €",
-              "diets": []
+              "diets": [
+                "G",
+                "M"
+              ]
             },
             {
-              "title": "MIN Veggie soup Bataattisosekeittoa",
+              "title": "MIN Veggie soup Palsternakkasosekeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1550,14 +1539,15 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Italialaisia kasvispyöryköitä pesto-tomaattikastikkeessa ja salviapastaa",
+              "title": "MIN Lunch buffet Thai red curry tofusta ja jasmineriisiä",
               "price": "14,00 €",
               "diets": [
+                "G",
                 "M"
               ]
             },
             {
-              "title": "MIN Lunch buffet Libanonilaista broilerinfilettä, kurkumariisiä ja valkosipulimajoneesia",
+              "title": "MIN Lunch buffet Lihapullia arrabbiatakastikeessa ja paahdettuja ricottaperunoita",
               "price": "",
               "diets": [
                 "G"
@@ -1572,6 +1562,14 @@
               ]
             }
           ]
+        },
+        "tue": {
+          "day_key": "tue",
+          "day_fi": "Tiistai",
+          "day_en": "Tuesday",
+          "short_fi": "Ti",
+          "short_en": "Tue",
+          "dishes": []
         },
         "wed": {
           "day_key": "wed",
