@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-21T11:56:42.044749+03:00",
-    "generated_at_readable": "21.10.2026 11:56",
+    "generated_at": "2026-10-21T16:05:44.617561+03:00",
+    "generated_at_readable": "21.10.2026 16:05",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -179,11 +179,8 @@
               ]
             },
             {
-              "title": "Lamb & cabbage rolls with lingon berries G, M",
-              "diets": [
-                "G",
-                "M"
-              ]
+              "title": "Cabbage rolls with lingon berries G, M, inc pork",
+              "diets": []
             },
             {
               "title": "Organic peasoup with pork and bacon G, M",
