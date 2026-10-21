@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-20T15:53:06.607870+03:00",
-    "generated_at_readable": "20.10.2026 15:53",
+    "generated_at": "2026-10-21T11:56:42.044749+03:00",
+    "generated_at_readable": "21.10.2026 11:56",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1232,7 +1232,7 @@
           "short_en": "Wed",
           "dishes": [
             {
-              "title": "Yrttistä porkkanasosekeittoa",
+              "title": "Parsakaalisosekeittoa",
               "diets": [
                 "*",
                 "A",
@@ -1288,10 +1288,11 @@
               ]
             },
             {
-              "title": "Lohimureketta",
+              "title": "Meidän keittiön kirjolohimureketta",
               "diets": [
                 "A",
                 "G",
+                "ILM",
                 "L"
               ]
             },
@@ -1321,10 +1322,12 @@
               ]
             },
             {
-              "title": "Toscapiirakkaa",
+              "title": "Puutarhamarja-ruismurupaistosta",
               "diets": [
                 "A",
-                "L"
+                "L",
+                "M",
+                "VE"
               ]
             }
           ]
@@ -1569,7 +1572,51 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Kinkku Pinsa",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Chef Tomaatti ja mozzarella Pinsa",
+              "price": "14,00 €",
+              "diets": []
+            },
+            {
+              "title": "MIN Veggie soup Bataattisosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Italialaisia kasvispyöryköitä pesto-tomaattikastikkeessa ja pastaa",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Libanonilaista broilerinpaistileikettä, kurkumariisiä ja valkosipulimajoneesia",
+              "price": "",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            }
+          ]
         },
         "wed": {
           "day_key": "wed",
@@ -1577,52 +1624,7 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": [
-            {
-              "title": "MIN Chef Shanghai taco broilerilla",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Shanghai taco mureilla kauralastuilla",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Parsakeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Garam masala -tofua ja basmatiriisiä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Jauhelihalasagnea",
-              "price": "",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            }
-          ]
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
@@ -1662,7 +1664,7 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Grillattuja broilerin paistileikkeitä, paahdettua perunaa ja aurajuustoranskankermaa",
+              "title": "MIN Lunch buffet Grillattuja broilerinfilettä, paahdettua perunaa ja aurajuustoranskankermaa",
               "price": "",
               "diets": [
                 "G",
