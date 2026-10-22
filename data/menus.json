@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-21T16:05:44.617561+03:00",
-    "generated_at_readable": "21.10.2026 16:05",
+    "generated_at": "2026-10-22T11:58:58.831146+03:00",
+    "generated_at_readable": "22.10.2026 11:58",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1621,7 +1621,52 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Shanghai taco broilerilla",
+              "price": "14,00 €",
+              "diets": [
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Chef Shanghai taco mureilla kauralastuilla",
+              "price": "14,00 €",
+              "diets": [
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Parsakeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Garam masala -tofua ja riisiä",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Jauhelihalasagnea",
+              "price": "",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G"
+              ]
+            }
+          ]
         },
         "thu": {
           "day_key": "thu",
@@ -1629,51 +1674,7 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": [
-            {
-              "title": "MIN Chef Teriyaki-paahdettu lohi ja Wokattuja kasviksia",
-              "price": "15,50 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Paistettuja dumplingseja, tofua ja nuudeleita",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Metsäsienikeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Härkis-ratatouillea ja täysjyväriisiä sekä lime-yrttimajoneesia",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Grillattuja broilerinfilettä, paahdettua perunaa ja aurajuustoranskankermaa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": []
-            }
-          ]
+          "dishes": []
         },
         "fri": {
           "day_key": "fri",
