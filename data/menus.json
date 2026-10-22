@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-22T11:58:58.831146+03:00",
-    "generated_at_readable": "22.10.2026 11:58",
+    "generated_at": "2026-10-22T16:07:09.806075+03:00",
+    "generated_at_readable": "22.10.2026 16:07",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1723,6 +1723,13 @@
               "price": "",
               "diets": [
                 "G"
+              ]
+            },
+            {
+              "title": "Lisäkekeitto Andalusialaista kasviskeittoa",
+              "price": "",
+              "diets": [
+                "L"
               ]
             }
           ]
