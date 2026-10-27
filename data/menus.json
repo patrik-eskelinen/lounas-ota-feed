@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-26T17:29:24.313321+03:00",
-    "generated_at_readable": "26.10.2026 17:29",
+    "generated_at": "2026-10-27T12:24:05.029517+03:00",
+    "generated_at_readable": "27.10.2026 12:24",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1539,33 +1539,25 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": []
-        },
-        "tue": {
-          "day_key": "tue",
-          "day_fi": "Tiistai",
-          "day_en": "Tuesday",
-          "short_fi": "Ti",
-          "short_en": "Tue",
           "dishes": [
             {
-              "title": "MIN Chef Grillattua lohta ja perunasalaattia",
-              "price": "15,50 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Porsaan ulkofilepihviä, herkkusienikastiketta, rosmariiniperunaa ja pikkelöityjä kasviksia",
+              "title": "MIN Chef Vietnamilainen riisinuudelikulho ja katkarapuja",
               "price": "14,00 €",
               "diets": [
                 "G",
-                "L"
+                "M"
               ]
             },
             {
-              "title": "MIN Veggie soup Inkivääri-porkkanasosekeittoa",
+              "title": "MIN Chef Vietnamilainen riisinuudelikulho ja pariloitua tofua",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Kasvisborssikeittoa ja smetanaa",
               "price": "",
               "diets": [
                 "G",
@@ -1573,7 +1565,7 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Täytettyjä paprikoita, sitruunakastiketta ja jasmineriisiä",
+              "title": "MIN Lunch buffet Vegepyöryköitä tomaattikastikkeessa, riisiä ja hernepestoa",
               "price": "",
               "diets": [
                 "G",
@@ -1581,9 +1573,10 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Jauhelihapihvejä, sinappi- kermakastiketta ja perunamuusia",
+              "title": "MIN Lunch buffet Paneroitua broileria ja currymajoneesia",
               "price": "14,00 €",
               "diets": [
+                "G",
                 "L"
               ]
             },
@@ -1591,10 +1584,19 @@
               "title": "MIN Sweet",
               "price": "",
               "diets": [
-                "G"
+                "G",
+                "L"
               ]
             }
           ]
+        },
+        "tue": {
+          "day_key": "tue",
+          "day_fi": "Tiistai",
+          "day_en": "Tuesday",
+          "short_fi": "Ti",
+          "short_en": "Tue",
+          "dishes": []
         },
         "wed": {
           "day_key": "wed",
