@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-10-28T17:20:22.344684+03:00",
-    "generated_at_readable": "28.10.2026 17:20",
+    "generated_at": "2026-10-29T13:29:52.903755+03:00",
+    "generated_at_readable": "29.10.2026 13:29",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1344,7 +1344,7 @@
               ]
             },
             {
-              "title": "lohta, rigatonipastaa ja tilliä",
+              "title": "Lohta, rigatonipastaa ja tilliä",
               "diets": [
                 "A",
                 "L",
@@ -1649,39 +1649,24 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": []
-        },
-        "thu": {
-          "day_key": "thu",
-          "day_fi": "Torstai",
-          "day_en": "Thursday",
-          "short_fi": "To",
-          "short_en": "Thu",
           "dishes": [
             {
-              "title": "MIN Chef Kukkakaaliwingsejä ja parmesan-polentaa sekä tzatzikia",
+              "title": "MIN Chef Bang bang broileria",
               "price": "14,00 €",
               "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Glaseerattua naudanrintaa, parmesan-polentaa ja paahdettuja kasviksia",
-              "price": "17,05 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Purjo-perunasosekeittoa",
-              "price": "",
-              "diets": [
                 "G",
-                "L"
+                "M"
               ]
             },
             {
-              "title": "MIN Lunch buffet Provencelaista kasvispataa, vihannesriisiä ja rouillekastiketta",
+              "title": "MIN Chef Bang bang halloumia",
+              "price": "14,00 €",
+              "diets": [
+                "G"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Ranskalaista sipulikeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1689,18 +1674,37 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Lyonin kanaa, dijon-perunamuusia ja hunajapaahdettua ruusukaalia.",
+              "title": "MIN Lunch buffet Talon halloumi-kasvispihvejä, valkosipuliperunaa ja yrtti-creme fraichea",
+              "price": "",
+              "diets": [
+                "G"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Naudanlihapataa punaviinissä, pilahviriisiä ja paahdettuja kasviksia",
               "price": "14,00 €",
               "diets": [
-                "L"
+                "G",
+                "M"
               ]
             },
             {
               "title": "MIN Sweet",
               "price": "",
-              "diets": []
+              "diets": [
+                "G",
+                "L"
+              ]
             }
           ]
+        },
+        "thu": {
+          "day_key": "thu",
+          "day_fi": "Torstai",
+          "day_en": "Thursday",
+          "short_fi": "To",
+          "short_en": "Thu",
+          "dishes": []
         },
         "fri": {
           "day_key": "fri",
