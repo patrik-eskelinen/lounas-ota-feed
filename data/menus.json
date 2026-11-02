@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-02T14:45:04.591979+03:00",
-    "generated_at_readable": "02.11.2026 14:45",
+    "generated_at": "2026-11-02T20:21:27.925474+03:00",
+    "generated_at_readable": "02.11.2026 20:21",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -932,46 +932,6 @@
             {
               "title": "Henkilökuntamme auttaa mielellään allergeeneihin ja raaka-aineisiin liittyvissä kysymyksissä.",
               "diets": []
-            },
-            {
-              "title": "The Witch’s Velvety Pumpkin Soup (L+G)",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Dracula’s Grilled Finnish Beef Sirloin Minute Steaks with Red Wine-BBQ Sauce (M+G) devilishly crispy French fries (VE+G) and the witch’s mysterious herb butter (L+G)",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
-              "title": "Zombies’ Golden Crispy Chicken Cordon Bleu (VL) ghostly night basmati rice (VE+G) and the devil’s fiery bell pepper dip (M+G)",
-              "diets": [
-                "G",
-                "M",
-                "VE",
-                "VL"
-              ]
-            },
-            {
-              "title": "The Forest Witch’s Mysterious Root Vegetable Spell: Roasted root vegetables and juicy tofu, vegan witch-style (VE+G)",
-              "diets": [
-                "G",
-                "KASVIS",
-                "VE"
-              ]
-            },
-            {
-              "title": "The Ghost’s White Vanilla Dream: Velvety vanilla panna cotta with blood-red rhubarb jam (L+G)",
-              "diets": [
-                "G",
-                "L"
-              ]
             },
             {
               "title": "Artichoke soup (L+G) croutons (VE)",
