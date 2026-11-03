@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-02T20:21:27.925474+03:00",
-    "generated_at_readable": "02.11.2026 20:21",
+    "generated_at": "2026-11-03T14:26:13.278235+03:00",
+    "generated_at_readable": "03.11.2026 14:26",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1170,6 +1170,12 @@
               ]
             },
             {
+              "title": "Pastaa saatavana G",
+              "diets": [
+                "G"
+              ]
+            },
+            {
               "title": "Pikkelöityä chiliä",
               "diets": [
                 "G",
@@ -1575,7 +1581,55 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Naudan lehtipihvi pippurikastiketta, ranskalaisia ja paahdettuja kasviksia",
+              "price": "17,05 €",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Chef Paahdettu wasabi kirjolohi poke bowl",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Pinaattikeittoa ja Lohkottuja kananmunia",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Halloumi-kasvispataa, tummaa riisiä ja persilja-jogurttikastiketta",
+              "price": "14,00 €",
+              "diets": [
+                "G"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Tomaatissa ja punaviinissä haudutettua porsaanlihaa ja paahdettuja pikkuperunoita",
+              "price": "",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            }
+          ]
         },
         "tue": {
           "day_key": "tue",
@@ -1583,48 +1637,7 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": [
-            {
-              "title": "MIN Chef Juustoista savuporopastaa",
-              "price": "14,00 €",
-              "diets": []
-            },
-            {
-              "title": "MIN Chef Broilerin perhosleikettä, kanttarellikastiketta, uunijuureksia ja ranskalaisia",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Bataattisosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Palak paneer juusto currya ja basmatiriisiä.",
-              "price": "14,00 €",
-              "diets": []
-            },
-            {
-              "title": "MIN Lunch buffet Paneroitua kampelaleikettä, perunamuusia ja sitruunamajoneesia",
-              "price": "",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            }
-          ]
+          "dishes": []
         },
         "wed": {
           "day_key": "wed",
