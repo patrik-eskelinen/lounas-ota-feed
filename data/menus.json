@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-03T18:25:21.169372+03:00",
-    "generated_at_readable": "03.11.2026 18:25",
+    "generated_at": "2026-11-04T14:40:13.425943+03:00",
+    "generated_at_readable": "04.11.2026 14:40",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1170,12 +1170,6 @@
               ]
             },
             {
-              "title": "Pastaa saatavana G",
-              "diets": [
-                "G"
-              ]
-            },
-            {
               "title": "Pikkelöityä chiliä",
               "diets": [
                 "G",
@@ -1236,6 +1230,23 @@
           "short_en": "Wed",
           "dishes": [
             {
+              "title": "Tomaattikeittoa L,M,G",
+              "diets": [
+                "G",
+                "L",
+                "M"
+              ]
+            },
+            {
+              "title": "Riisiä L,M,G Veg",
+              "diets": [
+                "G",
+                "L",
+                "M",
+                "VE"
+              ]
+            },
+            {
               "title": "Metsäsieniohukaisia",
               "diets": [
                 "*",
@@ -1286,17 +1297,6 @@
                 "G",
                 "L",
                 "M"
-              ]
-            },
-            {
-              "title": "Paahdettua perunaa",
-              "diets": [
-                "*",
-                "G",
-                "ILM",
-                "L",
-                "M",
-                "VE"
               ]
             },
             {
@@ -1548,11 +1548,20 @@
               ]
             },
             {
-              "title": "Porsaan lehtipihvi",
+              "title": "Possunleike keittiön tapaan",
+              "diets": [
+                "A",
+                "L",
+                "M"
+              ]
+            },
+            {
+              "title": "Maalaisranskalaisia",
               "diets": [
                 "G",
                 "L",
-                "M"
+                "M",
+                "VE"
               ]
             }
           ]
@@ -1637,7 +1646,52 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Juustoista savuporopastaa",
+              "price": "14,00 €",
+              "diets": [
+                "VL"
+              ]
+            },
+            {
+              "title": "MIN Chef Broilerin perhosleikettä, kanttarellikastiketta, uunijuureksia ja ranskalaisia",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Bataattisosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Palak paneer juusto currya ja riisiä",
+              "price": "14,00 €",
+              "diets": [
+                "G"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Paneroitua kampelaleikettä, perunamuusia ja sitruunakastiketta",
+              "price": "",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G"
+              ]
+            }
+          ]
         },
         "wed": {
           "day_key": "wed",
@@ -1645,52 +1699,7 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": [
-            {
-              "title": "MIN Chef Baba teemapäivät: Naudanliha kebab, pitaleipää, hummusta ja jogurttikastiketta.",
-              "price": "14,00 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Ramen keittoa katkaravuilla tai tofulla",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Kukkakaali-parsakaalikeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Baba teemapäivät: Hummuslasagnea ja siemen-sienifalafeleja",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Baba teemapäivät: Harissabroileria, basmatiriisiä ja matbuhakastiketta",
-              "price": "",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            }
-          ]
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
