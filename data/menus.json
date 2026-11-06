@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-05T18:42:22.015479+03:00",
-    "generated_at_readable": "05.11.2026 18:42",
+    "generated_at": "2026-11-06T14:39:42.566462+03:00",
+    "generated_at_readable": "06.11.2026 14:39",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1513,17 +1513,6 @@
               ]
             },
             {
-              "title": "Rapeita vegaanileikkeitä",
-              "diets": [
-                "A",
-                "G",
-                "ILM",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
               "title": "Srirachamajoneesia",
               "diets": [
                 "A",
@@ -1785,7 +1774,51 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Baba teemapäivät: Shawarma-kanaa, lavash leipää, basmatiriisiä, ranskanperunoita, hummusta ja jogurtti-tahinikastiketta",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Chef Thai green curry tofulla ja basmatiriisiä",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Paahdettua paprikakeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Baba teemapäivät: Pottufalafeleja, harissaperunaa, tahinijuureksia ja lime-fraichea",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Cajun jauhelihapataa ja mac and cheese paistosta",
+              "price": "",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": []
+            }
+          ]
         },
         "fri": {
           "day_key": "fri",
@@ -1793,52 +1826,7 @@
           "day_en": "Friday",
           "short_fi": "Pe",
           "short_en": "Fri",
-          "dishes": [
-            {
-              "title": "MIN Chef Bacon burger Maalaisranskalaisia",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Kikherneburgeria Maalaisranskalaisia",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Veggie soup Purjo-perunasosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Wokattuja kasviksia ja quornia, jasmineriisiä sekä sweetchilikastiketta",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Paneroitu porsaanleike, mausteisia perunoita ja choronmajoneesia",
-              "price": "",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Sweet Talon kääretorttua",
-              "price": "",
-              "diets": [
-                "L"
-              ]
-            }
-          ]
+          "dishes": []
         }
       }
     },
