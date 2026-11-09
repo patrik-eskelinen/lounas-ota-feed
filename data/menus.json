@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-09T15:15:21.550662+03:00",
-    "generated_at_readable": "09.11.2026 15:15",
+    "generated_at": "2026-11-09T20:44:47.996363+03:00",
+    "generated_at_readable": "09.11.2026 20:44",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1497,6 +1497,14 @@
                 "G",
                 "L"
               ]
+            },
+            {
+              "title": "Lisäkekeitto Palsternakkasosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "M"
+              ]
             }
           ]
         },
@@ -1549,6 +1557,13 @@
               "title": "MIN Sweet",
               "price": "",
               "diets": []
+            },
+            {
+              "title": "Lisäkekeitto Herkkusienikeittoa",
+              "price": "",
+              "diets": [
+                "L"
+              ]
             }
           ]
         },
@@ -1598,6 +1613,14 @@
               "title": "MIN Sweet",
               "price": "",
               "diets": []
+            },
+            {
+              "title": "Lisäkekeitto Tomaattikeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "M"
+              ]
             }
           ]
         },
@@ -1648,6 +1671,14 @@
               "title": "MIN Sweet",
               "price": "",
               "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "Lisäkekeitto Kukkakaalisosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
                 "L"
               ]
             }
