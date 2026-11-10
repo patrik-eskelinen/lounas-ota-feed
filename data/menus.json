@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-09T20:44:47.996363+03:00",
-    "generated_at_readable": "09.11.2026 20:44",
+    "generated_at": "2026-11-10T14:54:50.367200+03:00",
+    "generated_at_readable": "10.11.2026 14:54",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1395,11 +1395,8 @@
               ]
             },
             {
-              "title": "Metsästäjänleike keittiön tapaan",
-              "diets": [
-                "A",
-                "L"
-              ]
+              "title": "Hawajin jättileike",
+              "diets": []
             },
             {
               "title": "Ranskalaisia perunoita",
@@ -1445,29 +1442,23 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": []
-        },
-        "tue": {
-          "day_key": "tue",
-          "day_fi": "Tiistai",
-          "day_en": "Tuesday",
-          "short_fi": "Ti",
-          "short_en": "Tue",
           "dishes": [
             {
-              "title": "MIN Chef Chili cheese hot dog ja ranskalaisiaperunoita",
-              "price": "14,00 €",
-              "diets": []
-            },
-            {
-              "title": "MIN Chef Okonomiyaki ja seesami marinoituja katkarapuja",
+              "title": "MIN Chef Paahdettua kirjolohta ja talon caesarsalaattia",
               "price": "14,00 €",
               "diets": [
                 "L"
               ]
             },
             {
-              "title": "MIN Veggie soup Palsternakkasosekeittoa",
+              "title": "MIN Chef Beef tacos, Mexican chiliriisiä, Pico de gallo -salsaa, lime-ranskankermaa, nachoja ja grillattua maissia",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Veggie soup Porkkanasosekeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1475,7 +1466,7 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Massaman tofu-kasviscurrya ja jasmiiniriisiä",
+              "title": "MIN Lunch buffet Soijapyöryköitä yrttitomaattikastikkeessa, paahdettuja perunoita ja kurkkuraitaa",
               "price": "14,00 €",
               "diets": [
                 "G",
@@ -1483,10 +1474,9 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Lohi-katkarapupihvejä persilja-voiperunoita ja yrttijogurttikastiketta",
+              "title": "MIN Lunch buffet Butter chicken ja basmatiriisiä sekä naanleipää",
               "price": "",
               "diets": [
-                "G",
                 "L"
               ]
             },
@@ -1497,16 +1487,16 @@
                 "G",
                 "L"
               ]
-            },
-            {
-              "title": "Lisäkekeitto Palsternakkasosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
             }
           ]
+        },
+        "tue": {
+          "day_key": "tue",
+          "day_fi": "Tiistai",
+          "day_en": "Tuesday",
+          "short_fi": "Ti",
+          "short_en": "Tue",
+          "dishes": []
         },
         "wed": {
           "day_key": "wed",
