@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-17T20:00:00.840170+03:00",
-    "generated_at_readable": "17.11.2026 20:00",
+    "generated_at": "2026-11-18T15:23:37.563187+03:00",
+    "generated_at_readable": "18.11.2026 15:23",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1589,32 +1589,17 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
-        },
-        "wed": {
-          "day_key": "wed",
-          "day_fi": "Keskiviikko",
-          "day_en": "Wednesday",
-          "short_fi": "Ke",
-          "short_en": "Wed",
           "dishes": [
             {
-              "title": "MIN Chef Satay kirjolohi ja kevätkääryle bowl nuudeleilla",
+              "title": "MIN Chef Paistettua riisiä, vihanneksia ja katkarapuja",
               "price": "14,00 €",
               "diets": [
+                "G",
                 "M"
               ]
             },
             {
-              "title": "MIN Chef Uuniperunat, feta-kasvistäytteellä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "Lisäkekeitto Bataattisosekeittoa",
+              "title": "Lisäkekeitto Kurpitsa-tyrnikeittoa",
               "price": "",
               "diets": [
                 "G",
@@ -1622,15 +1607,15 @@
               ]
             },
             {
-              "title": "MIN Lunch buffet Shepher's pie soijasta ja kasviksista",
+              "title": "MIN Lunch buffet Kikherne-kukkakaalicurrya, basmatiriisiä ja korianteri-soijajogurttia",
               "price": "14,00 €",
               "diets": [
                 "G",
-                "M"
+                "L"
               ]
             },
             {
-              "title": "MIN Lunch buffet Marry me broileria, orzo pastaa ja parmesanjuustoa",
+              "title": "MIN Lunch buffet Kirjolohilasagnettea ja parmesanjuustoa",
               "price": "",
               "diets": [
                 "VL"
@@ -1640,10 +1625,19 @@
               "title": "MIN Sweet",
               "price": "",
               "diets": [
-                "G"
+                "G",
+                "L"
               ]
             }
           ]
+        },
+        "wed": {
+          "day_key": "wed",
+          "day_fi": "Keskiviikko",
+          "day_en": "Wednesday",
+          "short_fi": "Ke",
+          "short_en": "Wed",
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
