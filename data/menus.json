@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-18T19:40:03.718598+03:00",
-    "generated_at_readable": "18.11.2026 19:40",
+    "generated_at": "2026-11-19T15:17:15.277987+03:00",
+    "generated_at_readable": "19.11.2026 15:17",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1637,7 +1637,53 @@
           "day_en": "Wednesday",
           "short_fi": "Ke",
           "short_en": "Wed",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef Satay kirjolohi ja kevätkääryle bowl nuudeleilla",
+              "price": "14,00 €",
+              "diets": [
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Chef Uuniperunat, feta-kasvistäytteellä",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Lisäkekeitto Bataattisosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Shepher's pie soijasta ja kasviksista",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Marry me broileria, orzo pastaa ja parmesanjuustoa",
+              "price": "",
+              "diets": [
+                "VL"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G"
+              ]
+            }
+          ]
         },
         "thu": {
           "day_key": "thu",
@@ -1645,51 +1691,7 @@
           "day_en": "Thursday",
           "short_fi": "To",
           "short_en": "Thu",
-          "dishes": [
-            {
-              "title": "MIN Chef Vietnamilainen broiler bahn mi ja Valkosipuli-voiranskalaiset",
-              "price": "14,00 €",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Chef Vietnamilainen tofu bahn mi ja valkosipuli-voiranskalaiset",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "Lisäkekeitto Kevätsipuli-perunasosekeittoa",
-              "price": "",
-              "diets": [
-                "G",
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Tomaatti-linssimuhennosta ja riisiä.",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Ranskankermalla ja pekonilla maustettua riistakäristystä, perunamuusia ja puolukkaa",
-              "price": "",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": []
-            }
-          ]
+          "dishes": []
         },
         "fri": {
           "day_key": "fri",
