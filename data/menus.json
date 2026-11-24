@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-23T22:25:26.948415+03:00",
-    "generated_at_readable": "23.11.2026 22:25",
+    "generated_at": "2026-11-24T17:21:41.822915+03:00",
+    "generated_at_readable": "24.11.2026 17:21",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1089,15 +1089,6 @@
           "short_en": "Tue",
           "dishes": [
             {
-              "title": "Satokauden kasviksia",
-              "diets": [
-                "G",
-                "L",
-                "M",
-                "VE"
-              ]
-            },
-            {
               "title": "Puutarhurin juuressosekeittoa",
               "diets": [
                 "*",
@@ -1258,20 +1249,8 @@
               ]
             },
             {
-              "title": "Omenapiirakkaa",
-              "diets": [
-                "A",
-                "L",
-                "M"
-              ]
-            },
-            {
-              "title": "Vaniljakastiketta",
-              "diets": [
-                "A",
-                "G",
-                "L"
-              ]
+              "title": "Jälkkäri buffet",
+              "diets": []
             }
           ]
         },
@@ -1301,7 +1280,7 @@
               ]
             },
             {
-              "title": "Munkoiso -mozzarella vuokaa",
+              "title": "Munakoiso -mozzarella vuokaa",
               "diets": []
             },
             {
@@ -1377,7 +1356,54 @@
           "day_en": "Monday",
           "short_fi": "Ma",
           "short_en": "Mon",
-          "dishes": []
+          "dishes": [
+            {
+              "title": "MIN Chef: Amerikka: Chicken tacoja, Mexican salsaa, ranskankermaa ja sweet & sour punasipulia",
+              "price": "14,00 €",
+              "diets": [
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Chef Eurooppa: Kirjolohirisottoa ja grana padano juustoa",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "Lisäkekeitto Juuressosekeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Aasia: Tofua ja kasviksia makeassa soijakastikkeessa, jasmiiniriisiä ja pikkelöityä chiliä",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Eurooppa: Bolognesea, spaghettia ja parmesanjuustoa",
+              "price": "",
+              "diets": [
+                "VL"
+              ]
+            },
+            {
+              "title": "MIN Sweet",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            }
+          ]
         },
         "tue": {
           "day_key": "tue",
@@ -1385,50 +1411,7 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": [
-            {
-              "title": "MIN Chef: Afrikka: Domoda-broileria ja riisiä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Chef Afrikka: Domoda-tofua ja riisiä",
-              "price": "14,00 €",
-              "diets": [
-                "G",
-                "M"
-              ]
-            },
-            {
-              "title": "Lisäkekeitto Herkkusienikeittoa",
-              "price": "",
-              "diets": [
-                "L"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Aasia: Seitan kebab, valkosipulikastiketta, basmatiriisiä ja pitaleipää",
-              "price": "14,00 €",
-              "diets": [
-                "M"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Eurooppa: Paneroitua seitifilettä, tilli- voiperunoita ja piparjuuri- majoneesia",
-              "price": "",
-              "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Sweet",
-              "price": "",
-              "diets": []
-            }
-          ]
+          "dishes": []
         },
         "wed": {
           "day_key": "wed",
