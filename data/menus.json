@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-11-24T22:01:27.484199+03:00",
-    "generated_at_readable": "24.11.2026 22:01",
+    "generated_at": "2026-11-25T16:40:30.018844+03:00",
+    "generated_at_readable": "25.11.2026 16:40",
     "restaurant_count": 6,
     "area": "Otaniemi / Espoo",
     "version": "1.0.0"
@@ -1411,17 +1411,9 @@
           "day_en": "Tuesday",
           "short_fi": "Ti",
           "short_en": "Tue",
-          "dishes": []
-        },
-        "wed": {
-          "day_key": "wed",
-          "day_fi": "Keskiviikko",
-          "day_en": "Wednesday",
-          "short_fi": "Ke",
-          "short_en": "Wed",
           "dishes": [
             {
-              "title": "MIN Chef: Aasia: Bibimbap naudan jauhelihasta",
+              "title": "MIN Chef: Afrikka: Domoda-broileria ja riisiä",
               "price": "14,00 €",
               "diets": [
                 "G",
@@ -1429,31 +1421,33 @@
               ]
             },
             {
-              "title": "MIN Chef Aasia: Soija bibimbab gochujang-kastikkeella",
+              "title": "MIN Chef Afrikka: Domoda-tofua ja riisiä",
+              "price": "14,00 €",
+              "diets": [
+                "G",
+                "M"
+              ]
+            },
+            {
+              "title": "Lisäkekeitto Herkkusienikeittoa",
+              "price": "",
+              "diets": [
+                "G",
+                "L"
+              ]
+            },
+            {
+              "title": "MIN Lunch buffet Aasia: Seitan kebab, valkosipulikastiketta, basmatiriisiä ja pitaleipää",
               "price": "14,00 €",
               "diets": [
                 "M"
               ]
             },
             {
-              "title": "Lisäkekeitto Porkkana-savujuustokeittoa",
+              "title": "MIN Lunch buffet Eurooppa: Paneroitua seitifilettä, tilli- voiperunoita ja piparjuuri- majoneesia",
               "price": "",
               "diets": [
-                "G"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Eurooppa: Sieni-kasvispihvejä, yrttiohraa ja puolukka creme fraichea.",
-              "price": "14,00 €",
-              "diets": [
-                "KASVIS"
-              ]
-            },
-            {
-              "title": "MIN Lunch buffet Amerikka: Cajun paneroitua broileria, bataatti-perunamuusia ja mausteista tomaattimajoneesia.",
-              "price": "",
-              "diets": [
-                "G"
+                "L"
               ]
             },
             {
@@ -1464,6 +1458,14 @@
               ]
             }
           ]
+        },
+        "wed": {
+          "day_key": "wed",
+          "day_fi": "Keskiviikko",
+          "day_en": "Wednesday",
+          "short_fi": "Ke",
+          "short_en": "Wed",
+          "dishes": []
         },
         "thu": {
           "day_key": "thu",
